@@ -1,35 +1,21 @@
 import { useState } from 'react';
 
 import IEEEPolitecnico from '../assets/IEEEPolitecnico.svg';
+import { useLanguage } from '../contexts/LanguageContext';
 
-//Tradução
-const translations = {
-  pt: {
-    home: 'Início',
-    departments: 'Departamentos',
-    events: 'Eventos',
-    about: 'Quem Somos',
-    contacts: 'Contactos',
-    join: 'Junta-te a nós',
-  },
-  en: {
-    home: 'Home',
-    departments: 'Departments',
-    events: 'Events',
-    about: 'About Us',
-    contacts: 'Contacts',
-    join: 'Join Us',
-  },
-};
+import { translations } from '../translations';
 
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [lang, setLang] = useState<'pt' | 'en'>('pt'); // 'pt' por defeito
+  
+  const { lang, setLang } = useLanguage();
+  const t = translations[lang].navbar;
 
   return (
 
     <nav className="text-white shadow-md border-b-3 border-white" style={{backgroundColor: '#00275C' }}>
-      <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+      <div className="container mx-auto px-4 py-4 flex items-center justify-between gap-x-4">
+        
         {/* Logo + texto */}
         <div className="flex items-center space-x-2">
           <a href="#" className="flex items-center">
@@ -65,11 +51,11 @@ function Navbar() {
 
         {/* Menu desktop */}
         <ul className="hidden md:flex space-x-6 font-medium">
-            <li><a href="#">{translations[lang].home}</a></li>
-            <li><a href="#">{translations[lang].departments}</a></li>
-            <li><a href="#">{translations[lang].events}</a></li>
-            <li><a href="#">{translations[lang].about}</a></li>
-            <li><a href="#">{translations[lang].contacts}</a></li>
+          <li><a href="#">{t.home}</a></li>
+          <li><a href="#">{t.departments}</a></li>
+          <li><a href="#">{t.events}</a></li>
+          <li><a href="#">{t.about}</a></li>
+          <li><a href="#">{t.contacts}</a></li>
         </ul>
 
  
@@ -82,11 +68,11 @@ function Navbar() {
                   text-white font-semibold hover:bg-white hover:text-blue-200 transition-colors"
             style={{backgroundColor: '#2579B9' }}
           >
-            {translations[lang].join}
+            {t.join}
           </a>
         
           {/* Botão de seleção de idioma */}
-          <div className="ml-2">
+          <div className="ml-4">
             <select
               value={lang}
               onChange={(e) => setLang(e.target.value as 'pt' | 'en')}
@@ -106,18 +92,27 @@ function Navbar() {
 
         //Animação    
         <div className="md:hidden px-4 pb-4 space-y-5 font-medium transition-all duration-300 ease-in-out pt-3 border-t-yellow-100 ">
-            <a href="#" onClick={() => setIsMobileMenuOpen(false)} className="block hover:underline">Home</a>
-            <a href="#" onClick={() => setIsMobileMenuOpen(false)} className="block hover:underline">Departamentos</a>
-            <a href="#" onClick={() => setIsMobileMenuOpen(false)} className="block hover:underline">Eventos</a>
-            <a href="#" onClick={() => setIsMobileMenuOpen(false)} className="block hover:underline">Quem Somos</a>
-            <a href="#" onClick={() => setIsMobileMenuOpen(false)} className="block hover:underline">Contactos</a>
-            <a
-            href="#"
-            onClick={() => setIsMobileMenuOpen(false)}
-            className="block mt-2 px-4 py-2 border border-white rounded-full text-white text-center font-semibold hover:bg-white hover:text-blue-900 transition-colors  bg-blue-400"
+            
+            <a href="#" onClick={() => setIsMobileMenuOpen(false)} className="block hover:underline">{t.home}</a>
+            <a href="#" onClick={() => setIsMobileMenuOpen(false)} className="block hover:underline">{t.departments}</a>
+            <a href="#" onClick={() => setIsMobileMenuOpen(false)} className="block hover:underline">{t.events}</a>
+            <a href="#" onClick={() => setIsMobileMenuOpen(false)} className="block hover:underline">{t.about}</a>
+            <a href="#" onClick={() => setIsMobileMenuOpen(false)} className="block hover:underline">{t.contacts}</a>
+            <a href="#"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="block mt-2 px-4 py-2 border border-white rounded-full text-white text-center font-semibold hover:bg-white hover:text-blue-900 transition-colors  bg-blue-400"
             >
-            Join Us
+              Join Us
             </a>
+            
+            <select value={lang}
+              onChange={(e) => setLang(e.target.value as 'pt' | 'en')}
+              className="bg-transparent text-white font-medium outline-none align-items-center cursor-pointer flex"
+            >
+              <option className="text-black" value="pt">🇵🇹</option>
+              <option className="text-black" value="en">🇬🇧</option>
+            </select>
+
         </div>
         )}
     </nav>
