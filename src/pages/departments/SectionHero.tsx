@@ -11,10 +11,10 @@ export default function SectionHero() {
 
     return (
         <section
-        className="relative w-full min-h-screen text-white flex items-center justify-center px-6"
-        style={{
-            background: "linear-gradient(0deg, rgba(255,255,255,1) 7%, rgba(191,213,236,1) 15%, rgba(132,175,218,1) 28%, rgba(53,124,195,1) 45%, rgba(0,89,179,1) 57%, rgba(0,57,123,1) 77%, rgba(0,31,77,1) 93%)",
-        }}
+            className="relative w-full min-h-screen text-white flex items-center justify-center px-6"
+            style={{
+                background: "linear-gradient(0deg, rgba(255,255,255,1) 7%, rgba(191,213,236,1) 15%, rgba(132,175,218,1) 28%, rgba(53,124,195,1) 45%, rgba(0,89,179,1) 57%, rgba(0,57,123,1) 77%, rgba(0,31,77,1) 93%)",
+            }}
         >
 
             {/* Background SVG animado opcional */}
@@ -53,7 +53,7 @@ export default function SectionHero() {
                     .getElementById("departamentos")
                     ?.scrollIntoView({ behavior: "smooth" })
                 }
-                className="mt-10 px-6 py-3 bg-white text-blue-900 font-semibold rounded-xl shadow-lg hover:bg-blue-100 transition"
+                className="mt-10 px-6 py-3 bg-white text-blue-900 font-semibold rounded-xl shadow-lg hover:bg-blue-100 transition" 
                 >
                 {t.button}
                 </motion.button>

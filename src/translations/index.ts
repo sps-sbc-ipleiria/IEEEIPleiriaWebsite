@@ -40,8 +40,36 @@ export const translations = {
       title: "Conhece os Departamentos Técnicos da IEEE IPLeiria",
       subtitle: "Explora as sociedades que moldam o futuro da engenharia e tecnologia 💡",
       button: "Explorar Departamentos",
-  }
+    },
 
+    sectionAboutDepartments: {
+      title: "O que são os Departamentos IEEE?",
+      description:
+        "Os departamentos técnicos da IEEE IPLeiria permitem aos estudantes explorar áreas específicas da engenharia e tecnologia. São espaços de aprendizagem, inovação e colaboração, onde transformas interesse em impacto real.",
+      workshops: {
+        title: "Workshops",
+        text:
+          "Os nossos workshops ajudam-te a expandir conhecimentos e desenvolver competências práticas. Com foco na inovação e criatividade, são o espaço ideal para aplicar ideias, trabalhar em equipa e descobrir novas oportunidades.",
+      },
+      conferences: {
+        title: "Conferências",
+        text:
+          "As conferências são oportunidades únicas para aprender com especialistas da indústria, explorar tendências tecnológicas e criar ligações com outros estudantes e profissionais. Um espaço para crescer e descobrir o futuro da engenharia.",
+      },
+      community: {
+        title: "Comunidade",
+        text:
+          "Ao juntares-te à IEEE IPLeiria, entras numa comunidade inspiradora, colaborativa e cheia de talento. Aqui vais encontrar colegas com os mesmos interesses, apoio para desenvolver ideias, e motivação para transformar projetos em realidade.",
+      },
+    },
+
+    // https://spectrum.ieee.org/ieee-presidents-note-march-2024
+    sectionQuote: {
+      quote:
+        "Para mim, a IEEE é uma comunidade de profissionais tecnológicos que se ajudam mutuamente a manter-se atualizados, a desenvolver competências profissionais valiosas, e a trabalharem juntos para tornar o mundo um lugar melhor hoje e para as gerações futuras.",
+      name: "Dr. Tom Coughlin",
+      role: "Presidente da IEEE (2024)",
+    },
 
   },
 
@@ -82,14 +110,40 @@ export const translations = {
         link: "See more about Events"
     },
 
-
     sectionHeroDepartments: {
       title: "Discover the Technical Departments of IEEE IPLeiria",
       subtitle: "Explore the societies shaping the future of engineering and technology 💡",
       button: "Explore Departments",
-  }
+    },
 
+    sectionAboutDepartments: {
+      title: "What are the IEEE Departments?",
+      description:
+        "The technical departments at IEEE IPLeiria empower students to explore specific areas of engineering and technology. They are spaces for learning, innovation, and collaboration — where you turn curiosity into real-world impact.",
+      workshops: {
+        title: "Workshops",
+        text:
+          "Our workshops help students expand their knowledge and develop practical skills. With a focus on innovation and creativity, they offer the perfect space to apply ideas, work in teams, and discover new opportunities.",
+      },
+      conferences: {
+        title: "Conferences",
+        text:
+          "Conferences are unique opportunities to learn from industry experts, explore cutting-edge trends, and connect with other students and professionals. A place to grow, discover, and shape the future of engineering.",
+      },
+      community: {
+        title: "Community",
+        text:
+          "By joining IEEE IPLeiria, you enter an inspiring and collaborative community full of talent. Here you'll find peers with shared interests, support to develop your ideas, and motivation to turn projects into reality.",
+      },
+    },
   
+    // https://spectrum.ieee.org/ieee-presidents-note-march-2024
+    sectionQuote: {
+      quote:
+        "For me, IEEE is a community of technological professionals who help each other stay current, develop valuable professional skills, and work together to make the world a better place today and for generations to come.",
+      name: "Dr. Tom Coughlin",
+      role: "IEEE President (2024)",
+    },
 
 
     },

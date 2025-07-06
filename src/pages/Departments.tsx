@@ -1,12 +1,14 @@
 import HeroDepartamentos from "../pages/departments/SectionHero";
-import SAD from "../pages/home/SectionBranches";
-
+import SectionAboutDepartments from "../pages/departments/SectionAboutDepartments";
+import SectionQuoteIEEE from "./departments/SectionQuote";
 
 function Departments() {
   return (
       <>
-      <HeroDepartamentos />
-      <SAD />
+        <HeroDepartamentos />
+        <SectionAboutDepartments />
+        <SectionQuoteIEEE />
+
       </>
 
 

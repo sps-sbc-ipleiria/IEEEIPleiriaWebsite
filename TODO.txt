@@ -1,1 +1,2 @@
 Adaptar Index.html -> icon
+ver rotas random
