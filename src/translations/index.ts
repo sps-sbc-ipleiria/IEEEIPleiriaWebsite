@@ -34,7 +34,14 @@ export const translations = {
     sectionEvents: {
         title: "Os Nossos Eventos:",
         link: "Ver mais sobre os Eventos"
-    }
+    },
+
+    sectionHeroDepartments: {
+      title: "Conhece os Departamentos Técnicos da IEEE IPLeiria",
+      subtitle: "Explora as sociedades que moldam o futuro da engenharia e tecnologia 💡",
+      button: "Explorar Departamentos",
+  }
+
 
   },
 
@@ -71,9 +78,19 @@ export const translations = {
     },
 
     sectionEvents: {
-    title: "Our Events:",
-    link: "See more about Events"
+        title: "Our Events:",
+        link: "See more about Events"
     },
+
+
+    sectionHeroDepartments: {
+      title: "Discover the Technical Departments of IEEE IPLeiria",
+      subtitle: "Explore the societies shaping the future of engineering and technology 💡",
+      button: "Explore Departments",
+  }
+
+  
+
 
     },
 }

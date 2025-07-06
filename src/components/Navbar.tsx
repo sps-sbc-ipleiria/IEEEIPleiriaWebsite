@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import IEEEPolitecnico from '../assets/IEEEPolitecnico.svg';
 import { useLanguage } from '../contexts/LanguageContext';

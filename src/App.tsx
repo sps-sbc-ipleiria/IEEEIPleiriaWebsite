@@ -7,6 +7,8 @@ import Events from './pages/Events';
 import About from './pages/About';
 import Contacts from './pages/Contacts';
 
+import ScrollToTopButton from './components/ScrollToTopButton';
+
 /*Este componente será injetado no index.html via main.tsx*/
 function App() {
   return (
@@ -20,7 +22,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contacts" element={<Contacts />} />
       </Routes>
-
+      
+      <ScrollToTopButton />
     </BrowserRouter>
       
   );
