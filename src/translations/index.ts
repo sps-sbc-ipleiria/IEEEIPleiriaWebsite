@@ -10,6 +10,13 @@ export const translations = {
       join: 'Junta-te a nós',
     },
 
+    notFound: {
+      title: "Ups! Parece que te perdeste...",
+      description: "Por aqui não há conteúdo — mas na IEEE IPLeiria há workshops, desafios e pessoas incríveis à tua espera.",
+      link: "Voltar ao início",
+    },
+
+
     sectionIEEE: {
       title: 'IEEE: Identidade e Compromisso com a Inovação',
       missionTitle: 'Nossa Missão:',
@@ -71,6 +78,40 @@ export const translations = {
       role: "Presidente da IEEE (2024)",
     },
 
+    sectionSPS: {
+      title: "Departamento SPS — Signal Processing Society",
+      description:
+        "A SPS é uma sociedade técnica da IEEE dedicada ao processamento de sinais — áudio, imagem, vídeo, sensores e muito mais. Atua em áreas como áudio e voz, visão computacional, inteligência artificial e redes de comunicação. O capítulo da IPLeiria organiza eventos, palestras e workshops com foco em multimédia, tecnologia e aplicações reais.",
+      about: {
+          title: "Sobre o IEEE SPS SBC IPLeiria",
+          points: [
+            "Fundado a 6 de junho de 2024, o IEEE SPS Student Branch Chapter da IPLeiria é o primeiro do género em Portugal.",
+            "É uma plataforma para estudantes apaixonados por processamento de sinal se ligarem, inovarem e crescerem academicamente.",
+            "O IEEE SPS Portugal Chapter foi fundado em janeiro de 2024, marcando um marco para a comunidade nacional de Signal Processing.",
+          ],
+        },
+      
+      activities: [
+        {
+          title: "Workshops e Seminários",
+          text: "Mantém-te atualizado com temas como IA, imagem biomédica, processamento de áudio e modelos de linguagem — com foco prático e aplicado.",
+        },
+        {
+          title: "Oportunidades de Networking",
+          text: "Colabora com estudantes, professores e profissionais de Portugal e de outros países através de eventos e iniciativas SPS.",
+        },
+        {
+          title: "Projetos Práticos",
+          text: "Participa em aplicações reais de processamento de sinal para resolver desafios atuais com IA, sensores e análise de dados.",
+        },
+        {
+          title: "Competições e Eventos",
+          text: "Entra em desafios da IEEE SPS como o SP Cup e VIP Cup, e participa em iniciativas regionais e académicas.",
+        },
+      ]
+    }
+
+
   },
 
   en: {
@@ -82,6 +123,12 @@ export const translations = {
       about: 'About Us',
       contacts: 'Contacts',
       join: 'Join Us',
+    },
+
+    notFound: {
+      title: "Oops! Looks like you're lost...",
+      description: "There's nothing here — but at IEEE IPLeiria you'll find workshops, challenges, and amazing people waiting for you.",
+      link: "Go back to homepage",
     },
 
     sectionIEEE: {
@@ -144,6 +191,40 @@ export const translations = {
       name: "Dr. Tom Coughlin",
       role: "IEEE President (2024)",
     },
+
+    sectionSPS: {
+      title: "SPS Department — Signal Processing Society",
+      description:
+        "SPS is a technical society of IEEE focused on signal processing — audio, image, video, sensors, and more. It covers key areas such as audio and speech, computer vision, artificial intelligence, and communication networks. At IPLeiria, the chapter organizes events, talks and workshops focused on multimedia, technology and real-world applications.",
+      about: {
+        title: "About IEEE SPS SBC IPLeiria",
+        points: [
+          "Founded on June 6th, 2024, the IEEE SPS Student Branch Chapter at IPLeiria is the first of its kind in Portugal.",
+          "It is a platform for students passionate about signal processing to connect, innovate, and grow academically.",
+          "The IEEE SPS Portugal Chapter was founded in January 2024, marking a milestone for the national Signal Processing community.",
+        ],
+      },
+
+      activities: [
+        {
+          title: "Workshops & Seminars",
+          text: "Stay updated with cutting-edge topics such as AI, biomedical imaging, audio processing and large language models — with a practical, hands-on approach.",
+        },
+        {
+          title: "Networking Opportunities",
+          text: "Connect and collaborate with students, professors and professionals across Portugal and internationally through events and SPS initiatives.",
+        },
+        {
+          title: "Hands-On Projects",
+          text: "Get involved in real-world signal processing applications that solve modern challenges using AI, sensors, and data analysis.",
+        },
+        {
+          title: "Competitions & Events",
+          text: "Participate in global IEEE SPS competitions like SP Cup and VIP Cup, and join regional initiatives and academic challenges.",
+        },
+      ]
+    }
+
 
 
     },
