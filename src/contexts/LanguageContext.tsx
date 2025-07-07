@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from 'react';
+import { createContext, useContext, useEffect, useState } from 'react';
 import type { ReactNode } from 'react';
 
 type Language = 'pt' | 'en';
@@ -11,7 +11,21 @@ interface LanguageContextProps {
 const LanguageContext = createContext<LanguageContextProps | undefined>(undefined);
 
 export const LanguageProvider = ({ children }: { children: ReactNode }) => {
-  const [lang, setLang] = useState<Language>('pt');
+  const [lang, setLangState] = useState<Language>('pt');
+
+  // Atualiza o estado e guarda no sessionStorage
+  const setLang = (newLang: Language) => {
+    setLangState(newLang);
+    sessionStorage.setItem('lang', newLang);
+  };
+
+  // Ao carregar, verifica se há valor no sessionStorage
+  useEffect(() => {
+    const storedLang = sessionStorage.getItem('lang') as Language | null;
+    if (storedLang === 'pt' || storedLang === 'en') {
+      setLangState(storedLang);
+    }
+  }, []);
 
   return (
     <LanguageContext.Provider value={{ lang, setLang }}>

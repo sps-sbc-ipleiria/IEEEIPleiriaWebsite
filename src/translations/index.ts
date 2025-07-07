@@ -10,6 +10,14 @@ export const translations = {
       join: 'Junta-te a nós',
     },
 
+    sectionHero: {
+      title: "Bem-vindo à IEEE IPLeiria",
+      description: "Somos uma comunidade académica dedicada à inovação, tecnologia e desenvolvimento de competências — feita por estudantes, para estudantes.",
+      button: "Junta-te a nós"
+    },
+
+
+
     notFound: {
       title: "Ups! Parece que te perdeste...",
       description: "Por aqui não há conteúdo — mas na IEEE IPLeiria há workshops, desafios e pessoas incríveis à tua espera.",
@@ -108,8 +116,89 @@ export const translations = {
           title: "Competições e Eventos",
           text: "Entra em desafios da IEEE SPS como o SP Cup e VIP Cup, e participa em iniciativas regionais e académicas.",
         },
-      ]
-    }
+      ],
+      seeEvents: "Vê os nossos eventos e participa!",
+    },
+
+    sectionCS: {
+      title: "Departamento CS — Computer Society",
+      description:
+        "A Computer Society é a maior sociedade técnica da IEEE, dedicada ao avanço da computação e das tecnologias digitais. O capítulo da IPLeiria promove o desenvolvimento de competências em áreas como programação, cibersegurança, sistemas inteligentes, e ciência de dados, com eventos técnicos, projetos práticos e ligação à indústria.",
+
+      about: {
+        title: "Sobre o IEEE CS SBC IPLeiria",
+        points: [
+          "O capítulo estudantil da IEEE Computer Society na IPLeiria promove a aprendizagem colaborativa em ciência e engenharia informática.",
+          "Organizamos eventos focados em programação, desenvolvimento web, IA, cibersegurança e boas práticas de engenharia de software.",
+          "Criamos pontes entre estudantes, professores e profissionais através de workshops, hackathons e palestras técnicas.",
+        ],
+      },
+
+      activities: [
+        {
+          title: "Workshops de Programação",
+          text: "Eventos práticos sobre Python, web development, algoritmos e introdução a IA — ideais para estudantes de todos os níveis.",
+        },
+        {
+          title: "Hackathons e Desafios",
+          text: "Competições internas e colaborativas que promovem inovação, trabalho em equipa e soluções criativas para problemas reais.",
+        },
+        {
+          title: "Palestras e Seminários",
+          text: "Convidamos especialistas para partilhar conhecimentos em áreas como sistemas distribuídos, segurança informática e machine learning.",
+        },
+        {
+          title: "Projetos e Comunidade",
+          text: "Oportunidade de colaborar em projetos abertos com impacto real, promovendo o espírito de equipa e a aplicação prática do conhecimento.",
+        },
+      ],
+
+      seeEvents: "Vê os nossos eventos e participa!",
+    },
+
+    sectionPES: {
+      title: "Departamento PES — Power & Energy Society",
+      description:
+        "A PES é a sociedade da IEEE dedicada à energia elétrica e sustentabilidade. O capítulo da IPLeiria promove a formação e discussão sobre energias renováveis, redes inteligentes, mobilidade elétrica e eficiência energética.",
+
+      about: {
+        title: "Sobre o IEEE PES SBC IPLeiria",
+        points: [
+          "A IEEE PES promove o desenvolvimento tecnológico na área da energia, com foco em soluções sustentáveis para a sociedade.",
+          "O nosso capítulo estudantil oferece oportunidades para estudantes explorarem tópicos de energia de forma aplicada.",
+          "Organizamos eventos que ligam academia e indústria no contexto da transição energética.",
+        ],
+      },
+
+      activities: [
+        {
+          title: "Workshops de Energia",
+          text: "Formações sobre energias renováveis, redes inteligentes, baterias, e sistemas de carregamento de veículos elétricos.",
+        },
+        {
+          title: "Palestras Técnicas",
+          text: "Sessões com investigadores e profissionais da área da energia sobre temas atuais e futuros desafios.",
+        },
+        {
+          title: "Visitas Técnicas",
+          text: "Oportunidade de visitar centrais, subestações e empresas do setor energético.",
+        },
+        {
+          title: "Projetos Sustentáveis",
+          text: "Promoção de projetos aplicados com impacto ambiental positivo e foco em inovação.",
+        },
+      ],
+
+      seeEvents: "Vê os nossos eventos e participa!",
+    },
+
+    sectionConclusionDepartments: {
+      title: "Diversos Departamentos, Uma Só Missão",
+      description:
+        "Juntos, a SPS, a CS e a PES formam a base do nosso impacto. De inteligência artificial a energia renovável, a IEEE IPLeiria está a transformar ideias em ação.",
+      exploreEvents: "Explorar Eventos",
+      join: "Junta-te à IEEE",
+    },
 
 
   },
@@ -123,6 +212,12 @@ export const translations = {
       about: 'About Us',
       contacts: 'Contacts',
       join: 'Join Us',
+    },
+
+    sectionHero: {
+      title: "Welcome to IEEE IPLeiria",
+      description: "We are an academic community dedicated to innovation, technology, and skill development — created by students, for students.",
+      button: "Join us"
     },
 
     notFound: {
@@ -222,10 +317,88 @@ export const translations = {
           title: "Competitions & Events",
           text: "Participate in global IEEE SPS competitions like SP Cup and VIP Cup, and join regional initiatives and academic challenges.",
         },
-      ]
-    }
+      ],
+      seeEvents: "Check out our events and get involved!",
+    },
 
+    sectionCS: {
+      title: "CS Department — Computer Society",
+      description:
+        "The IEEE Computer Society is the largest technical society within IEEE, focused on computing and digital technology. At IPLeiria, the chapter promotes skill development in programming, cybersecurity, intelligent systems, and data science through technical events, hands-on projects, and industry connections.",
 
+      about: {
+        title: "About IEEE CS SBC IPLeiria",
+        points: [
+          "The IEEE Computer Society Student Branch Chapter at IPLeiria promotes collaborative learning in computer science and engineering.",
+          "We organize events on programming, web development, AI, cybersecurity and software engineering best practices.",
+          "We connect students, faculty and professionals through workshops, hackathons and technical talks.",
+        ],
+      },
+
+      activities: [
+        {
+          title: "Programming Workshops",
+          text: "Hands-on sessions on Python, web development, algorithms and introductory AI — ideal for students of all levels.",
+        },
+        {
+          title: "Hackathons and Challenges",
+          text: "Collaborative competitions that promote innovation, teamwork and creative solutions to real-world problems.",
+        },
+        {
+          title: "Lectures and Seminars",
+          text: "We invite experts to share insights on topics like distributed systems, cybersecurity and machine learning.",
+        },
+        {
+          title: "Projects and Community",
+          text: "Opportunities to collaborate on real-impact open projects, building teamwork and applying technical skills in practice.",
+        },
+      ],
+      seeEvents: "Check out our events and get involved!",
+    },
+
+    sectionPES: {
+      title: "PES Department — Power & Energy Society",
+      description:
+        "IEEE PES is dedicated to electric power and sustainable energy. The IPLeiria chapter promotes training and discussion on renewable energy, smart grids, electric mobility and energy efficiency.",
+
+      about: {
+        title: "About IEEE PES SBC IPLeiria",
+        points: [
+          "IEEE PES supports technological development in energy systems with a focus on sustainability and societal impact.",
+          "Our student chapter offers opportunities to explore applied energy topics through real-world projects.",
+          "We organize events that bridge academia and industry within the context of the energy transition.",
+        ],
+      },
+
+      activities: [
+        {
+          title: "Energy Workshops",
+          text: "Sessions on renewables, smart grids, batteries, and EV charging systems.",
+        },
+        {
+          title: "Technical Talks",
+          text: "Invited sessions with researchers and professionals from the energy sector.",
+        },
+        {
+          title: "Technical Visits",
+          text: "Opportunities to visit power plants, substations and energy-related companies.",
+        },
+        {
+          title: "Sustainable Projects",
+          text: "Support for student-led initiatives with environmental impact and innovative value.",
+        },
+      ],
+
+      seeEvents: "Check out our events and get involved!",
+    },
+
+    sectionConclusionDepartments: {
+      title: "Several Departments, One Mission",
+      description:
+        "Together, SPS, CS, and PES form the foundation of our impact. From AI to renewable energy, IEEE IPLeiria is turning ideas into action.",
+      exploreEvents: "Explore Events",
+      join: "Join IEEE",
+    },
 
     },
 }

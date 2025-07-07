@@ -6,8 +6,7 @@ import SectionEvents from '../pages/home/SectionEvents';
 function Home() {
   return (
       <>
-
-        <SectionIntro />
+        <SectionIntro/>
         <SectionIEEE />
         <SectionBranches />
         <SectionEvents />
