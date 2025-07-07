@@ -1,1 +1,2 @@
 Adaptar Index.html -> icon
+Atualizar links no Contactos

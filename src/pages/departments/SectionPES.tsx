@@ -11,39 +11,41 @@ export default function SectionPES() {
 
   return (
     <section className="text-[#007934] py-20 px-6">
-    <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto">
 
         {/* Título */}
         <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="text-3xl sm:text-4xl font-bold mb-8 text-center md:text-left"
+        className="text-3xl sm:text-4xl font-bold text-center md:text-left"
         >
         {t.title}
         </motion.h2>
 
         {/* Header com logo + texto */}
-        <div className="flex flex-col md:flex-row items-start gap-8 mb-12">
-        {/* Descrição */}
-        <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2, duration: 0.8 }}
-            className="text-lg sm:text-xl leading-relaxed text-[#003366] text-justify"
-        >
-            {t.description}
-        </motion.p>
+        <div className="flex flex-col md:flex-row items-center gap-8 mb-12">
+          
+          {/* Descrição */}
+          <motion.p
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2, duration: 0.8 }}
+              className="text-lg sm:text-xl leading-relaxed text-[#003366] text-justify"
+          >
+              {t.description}
+          </motion.p>
 
-        {/* Logo */}
-        <motion.img
-            src={PESLogo}
-            alt="IEEE Power & Energy Society Logo"
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6 }}
-            className="w-40 sm:w-48 md:w-52 flex-shrink-0 mx-auto md:mx-0"
-        />
+          {/* Logo */}
+          <motion.img
+              src={PESLogo}
+              alt="IEEE Power & Energy Society Logo"
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.6 }}
+              className="w-40 sm:w-48 md:w-52 flex-shrink-0 mx-auto md:mx-0"
+          />
+
         </div>
 
         {/* Missão e contexto */}

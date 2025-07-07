@@ -10,20 +10,23 @@ export const translations = {
       join: 'Junta-te a nós',
     },
 
-    sectionHero: {
-      title: "Bem-vindo à IEEE IPLeiria",
-      description: "Somos uma comunidade académica dedicada à inovação, tecnologia e desenvolvimento de competências — feita por estudantes, para estudantes.",
-      button: "Junta-te a nós"
-    },
-
-
-
     notFound: {
       title: "Ups! Parece que te perdeste...",
       description: "Por aqui não há conteúdo — mas na IEEE IPLeiria há workshops, desafios e pessoas incríveis à tua espera.",
       link: "Voltar ao início",
     },
 
+    sectionHero: {
+      title: "Bem-vindo à IEEE IPLeiria",
+      description: "Somos uma comunidade académica dedicada à inovação, tecnologia e desenvolvimento de competências — feita por estudantes, para estudantes.",
+      button: "Junta-te a nós"
+    },
+
+    sectionHeroDepartments: {
+      title: "Conhece os Departamentos Técnicos da IEEE IPLeiria",
+      subtitle: "Explora as sociedades que moldam o futuro da engenharia e tecnologia 💡",
+      button: "Explorar Departamentos",
+    },
 
     sectionIEEE: {
       title: 'IEEE: Identidade e Compromisso com a Inovação',
@@ -51,10 +54,11 @@ export const translations = {
         link: "Ver mais sobre os Eventos"
     },
 
-    sectionHeroDepartments: {
-      title: "Conhece os Departamentos Técnicos da IEEE IPLeiria",
-      subtitle: "Explora as sociedades que moldam o futuro da engenharia e tecnologia 💡",
-      button: "Explorar Departamentos",
+    sectionHomeConclusion: {
+      title: "O Futuro Começa Aqui",
+      subtitle: "Na IEEE IPLeiria, damos voz às ideias, formamos líderes e impulsionamos tecnologia com propósito. Junta-te ao movimento.",
+      join: "Tornar-me Membro",
+      departments: "Conhecer os Departamentos",
     },
 
     sectionAboutDepartments: {
@@ -200,6 +204,10 @@ export const translations = {
       join: "Junta-te à IEEE",
     },
 
+    sectionContact: {
+      title: "Fala connosco",
+      subtitle: "Estamos prontos para esclarecer dúvidas, receber sugestões ou colaborar contigo. Segue-nos ou entra em contacto direto.",
+    },
 
   },
 
@@ -214,16 +222,22 @@ export const translations = {
       join: 'Join Us',
     },
 
+    notFound: {
+      title: "Oops! Looks like you're lost...",
+      description: "There's nothing here — but at IEEE IPLeiria you'll find workshops, challenges, and amazing people waiting for you.",
+      link: "Go back to homepage",
+    },
+
     sectionHero: {
       title: "Welcome to IEEE IPLeiria",
       description: "We are an academic community dedicated to innovation, technology, and skill development — created by students, for students.",
       button: "Join us"
     },
 
-    notFound: {
-      title: "Oops! Looks like you're lost...",
-      description: "There's nothing here — but at IEEE IPLeiria you'll find workshops, challenges, and amazing people waiting for you.",
-      link: "Go back to homepage",
+    sectionHeroDepartments: {
+      title: "Discover the Technical Departments of IEEE IPLeiria",
+      subtitle: "Explore the societies shaping the future of engineering and technology 💡",
+      button: "Explore Departments",
     },
 
     sectionIEEE: {
@@ -252,10 +266,11 @@ export const translations = {
         link: "See more about Events"
     },
 
-    sectionHeroDepartments: {
-      title: "Discover the Technical Departments of IEEE IPLeiria",
-      subtitle: "Explore the societies shaping the future of engineering and technology 💡",
-      button: "Explore Departments",
+    sectionHomeConclusion: {
+      title: "The Future Starts Here",
+      subtitle: "At IEEE IPLeiria, we give voice to ideas, shape future leaders, and drive purposeful technology. Be part of the movement.",
+      join: "Join Now",
+      departments: "Explore Departments",
     },
 
     sectionAboutDepartments: {
@@ -398,6 +413,11 @@ export const translations = {
         "Together, SPS, CS, and PES form the foundation of our impact. From AI to renewable energy, IEEE IPLeiria is turning ideas into action.",
       exploreEvents: "Explore Events",
       join: "Join IEEE",
+    },
+
+    sectionContact: {
+      title: "Get in Touch",
+      subtitle: "We're here to answer questions, receive suggestions, or collaborate with you. Follow us or reach out directly.",
     },
 
     },
