@@ -1,4 +1,3 @@
-// components/SectionEvents/SectionEventsIntro.tsx
 import { useLanguage } from "../../contexts/LanguageContext";
 import { translations } from "../../translations";
 import { motion } from "framer-motion";

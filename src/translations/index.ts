@@ -18,8 +18,18 @@ export const translations = {
 
     sectionHero: {
       title: "Bem-vindo à IEEE IPLeiria",
-      description: "Somos uma comunidade académica dedicada à inovação, tecnologia e desenvolvimento de competências — feita por estudantes, para estudantes.",
-      button: "Junta-te a nós"
+      staticText: "Impulsionamos estudantes através de",
+      rotatingWords: [
+        "Inovação.",
+        "Tecnologia.",
+        "Projetos reais.",
+        "Workshops práticos.",
+        "Comunidade.",
+        "Crescimento pessoal.",
+        "Aprendizagem contínua.",
+        "Impacto positivo."
+      ],
+      button: "Junta-te a nós",
     },
 
     sectionHeroDepartments: {
@@ -204,13 +214,38 @@ export const translations = {
       join: "Junta-te à IEEE",
     },
 
-
-
     sectionEventsIntro: { 
       title: "Eventos que marcam a Diferença",
       description:
         "Ao longo dos anos, temos promovido o conhecimento, a inovação e a colaboração através de eventos únicos — desde workshops técnicos e aulas abertas, a palestras com investigadores e engenheiros de renome. Cada evento é uma oportunidade para crescer, partilhar e inspirar.",
       button: "Ver eventos anteriores",
+    },
+
+    mdiLlms: {
+      title: "MDI LLMS",
+      subtitle: "Machine Learning para Sistemas Multimédia",
+      date: "Março 2025",
+      location: "ESTG, IPL",
+      description:
+        "O MDI LLMS reuniu estudantes e especialistas para explorar soluções modernas de machine learning aplicadas a sistemas multimédia. O evento contou com sessões práticas, palestras de investigadores e momentos de networking técnico.",
+      highlights: [
+        "Oradores internacionais",
+        "Sessões práticas com PyTorch",
+        "Parceria com MDI IPLeiria",
+      ],
+    },
+
+    dlAutonomous: {
+      title: "DL on Autonomous Driving",
+      subtitle: "Deep Learning para Condução Autónoma",
+      date: "Abril 2025",
+      location: "ESTG, IPL",
+      description:
+        "O evento focou-se na aplicação de técnicas de deep learning em veículos autónomos. Foram abordados tópicos como deteção de objetos, segmentação semântica e sistemas de decisão inteligentes, através de sessões práticas e apresentações por especialistas na área.",
+      highlights: [
+        "Testes com dados reais de condução",
+        "Palestras com engenheiros de visão computacional",
+      ],
     },
 
     workshopLatex: {
@@ -240,6 +275,12 @@ export const translations = {
       location: "Auditório 1, ESTG",
     },
 
+    eventsConclusion: {
+      title: "Continuamos a construir conhecimento, partilhar experiências e inspirar inovação.",
+      description:
+        "Estes eventos são apenas uma amostra do compromisso da IEEE IPLeiria em promover a ciência e a tecnologia. Continuamos a criar oportunidades para aprender, crescer e colaborar — e os próximos capítulos estão apenas a começar.",
+      button: "Junta-te a nós",
+    },
 
     sectionContact: {
       title: "Fala connosco",
@@ -267,8 +308,18 @@ export const translations = {
 
     sectionHero: {
       title: "Welcome to IEEE IPLeiria",
-      description: "We are an academic community dedicated to innovation, technology, and skill development — created by students, for students.",
-      button: "Join us"
+      staticText: "We empower students through",
+      rotatingWords: [
+        "Innovation.",
+        "Technology.",
+        "Real-world projects.",
+        "Hands-on workshops.",
+        "Community.",
+        "Personal growth.",
+        "Continuous learning.",
+        "Positive impact."
+      ],
+      button: "Join us",
     },
 
     sectionHeroDepartments: {
@@ -459,6 +510,33 @@ export const translations = {
       button: "View past events",
     },
 
+    mdiLlms: {
+      title: "MDI LLMS",
+      subtitle: "Machine Learning for Multimedia Systems",
+      date: "March 2025",
+      location: "ESTG, IPL",
+      description:
+        "MDI LLMS brought together students and experts to explore modern machine learning solutions applied to multimedia systems. The event included hands-on sessions, research talks, and technical networking opportunities.",
+      highlights: [
+        "International speakers",
+        "Hands-on sessions with PyTorch",
+        "Partnership with MDI IPLeiria",
+      ],
+    },
+
+    dlAutonomous: {
+      title: "DL on Autonomous Driving",
+      subtitle: "Deep Learning for Autonomous Vehicles",
+      date: "April 2025",
+      location: "ESTG, IPL",
+      description:
+        "This event focused on the application of deep learning techniques to autonomous vehicles. Topics included object detection, semantic segmentation, and intelligent decision systems, explored through hands-on sessions and talks from industry experts.",
+      highlights: [
+        "Testing with real driving data",
+        "Talks by computer vision engineers",
+      ],
+    },
+
     workshopLatex: {
       title: "LaTeX Workshop",
       description:
@@ -484,6 +562,13 @@ export const translations = {
       type: "Open Lecture",
       date: "November 27th, 2024",
       location: "Auditorium 1, ESTG",
+    },
+
+    eventsConclusion: {
+      title: "We continue to build knowledge, share experiences, and inspire innovation.",
+      description:
+        "These events are just a glimpse of IEEE IPLeiria commitment to promoting science and technology. We keep creating opportunities to learn, grow, and collaborate — and the next chapters are just beginning.",
+      button: "Join Us",
     },
 
     sectionContact: {
