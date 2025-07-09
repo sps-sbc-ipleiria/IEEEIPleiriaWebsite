@@ -213,6 +213,32 @@ export const translations = {
       button: "Ver eventos anteriores",
     },
 
+    workshopLatex: {
+      title: "Workshop LaTeX",
+      description:
+        "Este workshop abordou os fundamentos do LaTeX, capacitando os participantes a produzir documentos científicos de forma profissional, com foco em relatórios, artigos e apresentações.",
+      type: "Workshop Técnico",
+      date: "4 de dezembro, 2024",
+      location: "Sala D.S.01.14, ESTG",
+    },
+
+    pytorchWorkshop: {
+      title: "Workshop PyTorch",
+      description:
+        "Este workshop foi dedicado à introdução ao PyTorch, uma das bibliotecas mais populares para machine learning e deep learning. Os participantes aprenderam a construir e treinar redes neuronais simples, explorando conceitos fundamentais de inteligência artificial de forma prática.",
+      type: "Workshop Técnico",
+      date: "18 de dezembro, 2024",
+      location: "Sala D.S.01.14, ESTG",
+    },
+
+    microchipLecture: {
+      title: "Aula Aberta: Introdução aos Microcontroladores",
+      description:
+        "Nesta aula aberta, os participantes tiveram contacto com os conceitos fundamentais dos microcontroladores, explorando a sua estrutura, funcionamento e aplicações práticas em sistemas embebidos. Foi apresentada uma visão introdutória sobre programação e controlo de dispositivos eletrónicos.",
+      type: "Aula Aberta",
+      date: "27 de novembro, 2024",
+      location: "Auditório 1, ESTG",
+    },
 
 
     sectionContact: {
@@ -426,8 +452,6 @@ export const translations = {
       join: "Join IEEE",
     },
 
-
-
     sectionEventsIntro: { 
       title: "Events that make a Difference",
       description:
@@ -435,9 +459,32 @@ export const translations = {
       button: "View past events",
     },
 
+    workshopLatex: {
+      title: "LaTeX Workshop",
+      description:
+        "This workshop covered the fundamentals of LaTeX, enabling participants to produce scientific documents professionally, with a focus on reports, articles, and presentations.",
+      type: "Technical Workshop",
+      date: "December 4th, 2024",
+      location: "Room D.S.01.14, ESTG",
+    },
 
+    pytorchWorkshop: {
+      title: "PyTorch Workshop",
+      description:
+        "This workshop was dedicated to introducing PyTorch, one of the most popular libraries for machine learning and deep learning. Participants learned how to build and train simple neural networks, exploring core artificial intelligence concepts through hands-on practice.",
+      type: "Technical Workshop",
+      date: "December 18th, 2024",
+      location: "Room D.S.01.14, ESTG",
+    },
 
-
+    microchipLecture: {
+      title: "Open Lecture: Introduction to Microcontrollers",
+      description:
+        "In this open lecture, participants were introduced to the fundamental concepts of microcontrollers, exploring their structure, functionality, and practical applications in embedded systems. An introductory overview was presented on programming and controlling electronic devices.",
+      type: "Open Lecture",
+      date: "November 27th, 2024",
+      location: "Auditorium 1, ESTG",
+    },
 
     sectionContact: {
       title: "Get in Touch",
