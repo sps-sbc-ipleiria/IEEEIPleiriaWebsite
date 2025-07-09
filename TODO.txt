@@ -1,2 +1,24 @@
 Adaptar Index.html -> icon
 Atualizar links no Contactos
+JOIN US -> Nao esquecer
+
+
+Eventos
+Introdução - Objetivo, workshops, palestras cientificas, etc...
+
+2025 -
+
+MDI LLMS
+
+DL on Autonomous Driving
+    Fotos Drive
+
+2024 -
+
+Aula Aberta MicroChip
+
+Cycle 2 MDI MMSP
+
+Workshop Latex
+
+Workshop Pytorch

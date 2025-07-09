@@ -204,6 +204,17 @@ export const translations = {
       join: "Junta-te à IEEE",
     },
 
+
+
+    sectionEventsIntro: { 
+      title: "Eventos que marcam a Diferença",
+      description:
+        "Ao longo dos anos, temos promovido o conhecimento, a inovação e a colaboração através de eventos únicos — desde workshops técnicos e aulas abertas, a palestras com investigadores e engenheiros de renome. Cada evento é uma oportunidade para crescer, partilhar e inspirar.",
+      button: "Ver eventos anteriores",
+    },
+
+
+
     sectionContact: {
       title: "Fala connosco",
       subtitle: "Estamos prontos para esclarecer dúvidas, receber sugestões ou colaborar contigo. Segue-nos ou entra em contacto direto.",
@@ -414,6 +425,19 @@ export const translations = {
       exploreEvents: "Explore Events",
       join: "Join IEEE",
     },
+
+
+
+    sectionEventsIntro: { 
+      title: "Events that make a Difference",
+      description:
+        "Over the years, we’ve promoted knowledge, innovation, and collaboration through unique events — from technical workshops and open lectures to talks with renowned researchers and engineers. Each event is an opportunity to grow, share, and inspire.",
+      button: "View past events",
+    },
+
+
+
+
 
     sectionContact: {
       title: "Get in Touch",

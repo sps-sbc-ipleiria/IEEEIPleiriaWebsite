@@ -1,9 +1,9 @@
-import SectionHomeConclusion from '../pages/contacts/SectionContacts';
+import SectionContacts from '../pages/contacts/SectionContacts';
 
 function Contacts() {
   return (
       <>
-        <SectionHomeConclusion/>
+        <SectionContacts/>
       </>
   );
 }
