@@ -15,7 +15,7 @@ export default function SectionAboutDepartments() {
                 transition={{ duration: 0.7 }}
                 className="text-3xl sm:text-4xl font-bold mb-6"
             >
-            {t.title}
+                {t.title}
             </motion.h2>
 
             <motion.p
@@ -24,10 +24,11 @@ export default function SectionAboutDepartments() {
             transition={{ delay: 0.2, duration: 0.8 }}
             className="text-lg sm:text-xl text-gray-700 leading-relaxed mb-12 text-center"
             >
-            {t.description}
+                {t.description}
             </motion.p>
 
             <div className="grid md:grid-cols-3 gap-10 text-left">
+            
             {/* Workshops */}
             <motion.div
                 initial={{ opacity: 0, y: 20 }}

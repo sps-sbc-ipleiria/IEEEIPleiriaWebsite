@@ -19,7 +19,15 @@ export default function SectionConclusionDepartments() {
           transition={{ duration: 0.6 }}
         >
           {t.title}
+          <motion.span
+            className="block h-1 w-20 bg-[#2579B9] rounded-full mx-auto mt-5"
+            initial={{ scaleX: 0 }}
+            animate={{ scaleX: 1 }}
+            transition={{ duration: 0.8, delay: 0.5 }}
+          />
+
         </motion.h2>
+
 
         {/* Descrição */}
         <motion.p

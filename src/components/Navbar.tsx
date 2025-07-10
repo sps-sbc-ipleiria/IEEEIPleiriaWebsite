@@ -1,34 +1,43 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 import IEEEPolitecnico from '../assets/IEEEPolitecnico.svg';
 import { useLanguage } from '../contexts/LanguageContext';
 
 import { translations } from '../translations';
+import { motion, AnimatePresence } from 'framer-motion';
 
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  
   const { lang, setLang } = useLanguage();
   const t = translations[lang].navbar;
+  const location = useLocation();
 
-  
+  const navLinks = [
+    { to: '/', label: t.home },
+    { to: '/departments', label: t.departments },
+    { to: '/events', label: t.events },
+    { to: '/about', label: t.about },
+    { to: '/contacts', label: t.contacts },
+  ];
+
   return (
-
-    <nav className="fixed w-full z-50 text-white shadow-md border-b-3 border-white bg-[#00275C]">
-      <div className="container mx-auto px-4 py-4 flex items-center justify-between gap-x-4">
-        
+    <motion.nav
+      className="fixed w-full z-50 text-white shadow-md border-b-3 border-white bg-[#00275C]"
+      initial={{ y: -40, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.5, ease: 'easeOut' }}
+    >
+      <div className="container mx-auto px-4 flex items-center justify-between gap-x-4 h-20">
         {/* Logo + texto */}
-        <div className="flex items-center space-x-2">
-          <a href="/" className="flex items-center">
-            <img src={IEEEPolitecnico} alt="Logo IEEE" className="h-10 w-auto" />
-
-            {/* <div className="text-sm leading-tight hidden sm:block">
-              <p>Politécnico de Leiria</p>
-              <p className="text-xs">IEEE Student Branch</p>
-            </div> */}
-          </a>
-        </div>
+        <motion.a
+          href="/"
+          className="flex items-center"
+          whileHover={{ scale: 1.07 }}
+          transition={{ type: 'spring', stiffness: 300, damping: 18 }}
+        >
+          <img src={IEEEPolitecnico} alt="Logo IEEE" className="h-10 w-auto" />
+        </motion.a>
 
         {/* Botão de menu mobile (hambúrguer) */}
         <button
@@ -52,36 +61,32 @@ function Navbar() {
         </button>
 
         {/* Menu desktop */}
-        <ul className="hidden md:flex space-x-6 font-medium">
-          <li>
-            <Link to="/" className="hover:underline">{t.home}</Link>
-          </li>
-          <li>
-            <Link to="/departments" className="hover:underline">{t.departments}</Link>
-          </li>
-          <li>
-            <Link to="/events" className="hover:underline">{t.events}</Link>
-          </li>
-          <li>
-            <Link to="/about" className="hover:underline">{t.about}</Link>
-          </li>
-          <li>
-            <Link to="/contacts" className="hover:underline">{t.contacts}</Link>
-          </li>
+        <ul className="hidden md:flex space-x-6 font-medium h-full items-center">
+          {navLinks.map((link) => (
+            <li key={link.to} className="h-full flex items-center">
+              <Link
+                to={link.to}
+                className={`relative px-1 py-1 transition-colors duration-200 group ${location.pathname === link.to ? 'text-[#7ecbff]' : 'text-white'}`}
+              >
+                {link.label}
+                <span className="block h-0.5 bg-[#7ecbff] rounded-full transition-all duration-300 scale-x-0 group-hover:scale-x-100 origin-left" style={{ transformOrigin: 'left' }}></span>
+              </Link>
+            </li>
+          ))}
         </ul>
- 
+
         {/* Botões Join Us e seleção de idioma */}
         <div className="hidden md:flex items-center">
           {/* Botão Join Us (desktop) */}
-          <a
+          <motion.a
             href="#"
-            className="hidden md:inline-block ml-4 px-4 py-2 border-2 border-white rounded-lg
-                  text-white font-semibold hover:bg-white hover:text-blue-200 transition-colors"
-            style={{backgroundColor: '#2579B9' }}
+            className="hidden md:inline-block ml-4 px-4 py-2 border-2 border-white rounded-lg text-white font-semibold hover:bg-white hover:text-blue-200 transition-colors"
+            style={{ backgroundColor: '#2579B9' }}
+            whileHover={{ scale: 1.08, backgroundColor: '#1e335c' }}
+            transition={{ type: 'spring', stiffness: 300, damping: 18 }}
           >
             {t.join}
-          </a>
-        
+          </motion.a>
           {/* Botão de seleção de idioma */}
           <div className="ml-4">
             <select
@@ -93,39 +98,48 @@ function Navbar() {
               <option className="text-black" value="en">🇬🇧</option>
             </select>
           </div>
-
         </div>
-
       </div>
 
       {/* Menu mobile dropdown */}
-      {isMobileMenuOpen && (
-        <div className="md:hidden px-4 pb-4 space-y-5 font-medium transition-all duration-300 ease-in-out pt-3 border-t-yellow-100">
-          <Link to="/" onClick={() => setIsMobileMenuOpen(false)} className="block hover:underline">{t.home}</Link>
-          <Link to="/departments" onClick={() => setIsMobileMenuOpen(false)} className="block hover:underline">{t.departments}</Link>
-          <Link to="/events" onClick={() => setIsMobileMenuOpen(false)} className="block hover:underline">{t.events}</Link>
-          <Link to="/about" onClick={() => setIsMobileMenuOpen(false)} className="block hover:underline">{t.about}</Link>
-          <Link to="/contacts" onClick={() => setIsMobileMenuOpen(false)} className="block hover:underline">{t.contacts}</Link>
-
-          <Link
-            to="/join" // ou usa "#" se ainda não tiveres página
-            onClick={() => setIsMobileMenuOpen(false)}
-            className="block mt-2 px-4 py-2 border border-white rounded-full text-white text-center font-semibold hover:bg-white hover:text-blue-900 transition-colors bg-blue-400"
+      <AnimatePresence>
+        {isMobileMenuOpen && (
+          <motion.div
+            className="md:hidden px-4 pb-4 space-y-5 font-medium pt-3 border-t-yellow-100 bg-[#00275C]"
+            initial={{ y: -20, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            exit={{ y: -20, opacity: 0 }}
+            transition={{ duration: 0.3 }}
           >
-            {t.join}
-          </Link>
-
-          <select
-            value={lang}
-            onChange={(e) => setLang(e.target.value as 'pt' | 'en')}
-            className="bg-transparent text-white font-medium outline-none align-items-center cursor-pointer flex"
-          >
-            <option className="text-black" value="pt">🇵🇹</option>
-            <option className="text-black" value="en">🇬🇧</option>
-          </select>
-        </div>
-      )}
-    </nav>
+            {navLinks.map((link) => (
+              <Link
+                key={link.to}
+                to={link.to}
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="block hover:underline"
+              >
+                {link.label}
+              </Link>
+            ))}
+            <Link
+              to="/join"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="block mt-2 px-4 py-2 border border-white rounded-full text-white text-center font-semibold hover:bg-white hover:text-blue-900 transition-colors bg-blue-400"
+            >
+              {t.join}
+            </Link>
+            <select
+              value={lang}
+              onChange={(e) => setLang(e.target.value as 'pt' | 'en')}
+              className="bg-transparent text-white font-medium outline-none align-items-center cursor-pointer flex"
+            >
+              <option className="text-black" value="pt">🇵🇹</option>
+              <option className="text-black" value="en">🇬🇧</option>
+            </select>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </motion.nav>
   );
 }
 

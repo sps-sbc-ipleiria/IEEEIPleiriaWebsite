@@ -3,7 +3,6 @@ import { translations } from '../../translations';
 
 import { motion } from "framer-motion";
 
-
 export default function SectionHero() {
 
     const { lang } = useLanguage();
@@ -18,23 +17,29 @@ export default function SectionHero() {
         >
 
             {/* Background SVG animado opcional */}
-            <div className="absolute inset-0 opacity-20 z-0">
+            <div className="absolute inset-0 opacity-0 z-0">
                 <img
                 src="/background-tech.svg"
-                alt="background tech"
                 className="w-full h-full object-cover"
                 />
             </div>
 
             <div className="relative z-10 text-center max-w-3xl">
                 <motion.h1
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8 }}
-                className="text-4xl sm:text-5xl md:text-6xl font-bold"
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8 }}
+                    className="text-4xl sm:text-5xl md:text-6xl font-bold"
                 >
                 {t.title}
                 </motion.h1>
+
+                <motion.span
+                    className="block h-1 w-20 bg-[#7ecbff] rounded-full mx-auto mt-3"
+                    initial={{ scaleX: 0 }}
+                    animate={{ scaleX: 1 }}
+                    transition={{ duration: 0.8, delay: 0.5 }}
+                />
 
                 <motion.p
                 initial={{ opacity: 0, y: 30 }}
