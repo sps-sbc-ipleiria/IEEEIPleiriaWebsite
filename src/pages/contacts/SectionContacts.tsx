@@ -31,7 +31,7 @@ function SectionContacts() {
             {t.subtitle}
           </motion.p>
 
-          <motion.p
+          <motion.div
             className="text-lg text-gray-700"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -56,7 +56,7 @@ function SectionContacts() {
                 <FaMapMarkerAlt className="text-[#2579B9]" /> <span>ESTG, IPLeiria - Campus 2, Leiria</span>
               </li>
             </ul>
-           </motion.p>
+           </motion.div>
         </div>
 
         {/* Mapa embed */}
@@ -68,11 +68,11 @@ function SectionContacts() {
         >
           <iframe
             title="Google Maps"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1534.115997600368!2d-8.821927620484647!3d39.73443929672617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2spt!4v1751911446597!5m2!1spt-PT!2spt" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1534.115997600368!2d-8.821927620484647!3d39.73443929672617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2spt!4v1751911446597!5m2!1spt-PT!2spt" 
+            allowFullScreen=""
             width="100%"
             height="100%"
             style={{ border: 0 }}
-            allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           />

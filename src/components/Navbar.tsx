@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 import IEEEPolitecnico from '../assets/IEEEPolitecnico.svg';
 import { useLanguage } from '../contexts/LanguageContext';
@@ -64,13 +64,15 @@ function Navbar() {
         <ul className="hidden md:flex space-x-6 font-medium h-full items-center">
           {navLinks.map((link) => (
             <li key={link.to} className="h-full flex items-center">
-              <Link
-                to={link.to}
-                className={`relative px-1 py-1 transition-colors duration-200 group ${location.pathname === link.to ? 'text-[#7ecbff]' : 'text-white'}`}
+              <button
+                onClick={() => window.location.href = link.to}
+                className={`relative px-1 py-1 transition-colors duration-200 group bg-transparent ${
+                  location.pathname === link.to ? 'text-[#7ecbff]' : 'text-white'
+                }`}
               >
                 {link.label}
-                <span className="block h-0.5 bg-[#7ecbff] rounded-full transition-all duration-300 scale-x-0 group-hover:scale-x-100 origin-left" style={{ transformOrigin: 'left' }}></span>
-              </Link>
+                <span className="block h-0.5 bg-[#7ecbff] rounded-full transition-all duration-300 scale-x-0 group-hover:scale-x-100 origin-left"></span>
+              </button>
             </li>
           ))}
         </ul>
@@ -112,22 +114,28 @@ function Navbar() {
             transition={{ duration: 0.3 }}
           >
             {navLinks.map((link) => (
-              <Link
+              <button
                 key={link.to}
-                to={link.to}
-                onClick={() => setIsMobileMenuOpen(false)}
-                className="block hover:underline"
+                onClick={() => {
+                  setIsMobileMenuOpen(false);
+                  window.location.href = link.to;
+                }}
+                className="block hover:underline w-full text-left"
               >
                 {link.label}
-              </Link>
+              </button>
             ))}
-            <Link
-              to="/join"
-              onClick={() => setIsMobileMenuOpen(false)}
-              className="block mt-2 px-4 py-2 border border-white rounded-full text-white text-center font-semibold hover:bg-white hover:text-blue-900 transition-colors bg-blue-400"
+
+            <button
+              onClick={() => {
+                setIsMobileMenuOpen(false);
+                window.location.href = "/join";
+              }}
+              className="block mt-2 px-4 py-2 border border-white rounded-full text-white text-center font-semibold hover:bg-white hover:text-blue-900 transition-colors bg-blue-400 w-full"
             >
               {t.join}
-            </Link>
+            </button>
+
             <select
               value={lang}
               onChange={(e) => setLang(e.target.value as 'pt' | 'en')}

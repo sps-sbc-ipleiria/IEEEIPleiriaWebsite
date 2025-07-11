@@ -282,6 +282,38 @@ export const translations = {
       button: "Junta-te a nós",
     },
 
+    sectionAbout: {
+      title: "Quem Somos",
+      description: "Somos uma equipa multidisciplinar que trabalha para promover a IEEE na nossa instituição.",
+      departments: {
+        sps: {
+          title: "Capítulo SPS",
+          description: "O Signal Processing Society promove conhecimento nas áreas de processamento de sinal, imagem e som.",
+        },
+        pes: {
+          title: "Capítulo PES",
+          description: "O Power & Energy Society foca-se em energia elétrica, sustentabilidade e tecnologias energéticas.",
+        },
+        cs: {
+          title: "Capítulo CS",
+          description: "O Computer Society aborda áreas como inteligência artificial, desenvolvimento web e cibersegurança.",
+        },
+      },
+      conclusion:"Acreditamos no poder da colaboração e do conhecimento partilhado. Se tens interesse em tecnologia, energia ou ciência, junta-te a nós e faz parte da mudança.",
+      join: 'Junta-te a nós',
+    },
+
+    roles: {
+      president: "Presidente",
+      vicePresident: "Vice-presidente",
+      secretary: "Secretário",
+      treasurer: "Tesoureiro",
+      webmaster: "Web Master",
+      marketingLead: "Responsável de Marketing",
+      designLead: "Responsável de Design",
+      member: "Membro",
+    },
+
     sectionContact: {
       title: "Fala connosco",
       subtitle: "Estamos prontos para esclarecer dúvidas, receber sugestões ou colaborar contigo. Segue-nos ou entra em contacto direto.",
@@ -569,6 +601,38 @@ export const translations = {
       description:
         "These events are just a glimpse of IEEE IPLeiria commitment to promoting science and technology. We keep creating opportunities to learn, grow, and collaborate — and the next chapters are just beginning.",
       button: "Join Us",
+    },
+
+    sectionAbout: {
+      title: "Who We Are",
+      description: "We are a multidisciplinary team working to promote IEEE within our institution.",
+      departments: {
+        sps: {
+          title: "SPS Chapter",
+          description: "The Signal Processing Society promotes knowledge in signal, image, and sound processing.",
+        },
+        pes: {
+          title: "PES Chapter",
+          description: "The Power & Energy Society focuses on electrical energy, sustainability, and energy technologies.",
+        },
+        cs: {
+          title: "CS Chapter",
+          description: "The Computer Society focuses on AI, web development, and cybersecurity.",
+        },
+      },
+      conclusion:"We believe in the power of collaboration and shared knowledge. If you're passionate about technology, energy, or science, join us and be part of the change.",
+      join: 'Join Us',
+    },
+
+    roles: {
+      president: "President",
+      vicePresident: "Vice President",
+      secretary: "Secretary",
+      treasurer: "Treasurer",
+      webmaster: "WebMaster",
+      marketingLead: "Marketing Lead",
+      designLead: "Design Lead",
+      member: "Member",
     },
 
     sectionContact: {
