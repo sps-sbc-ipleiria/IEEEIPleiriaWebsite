@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import NotFound from './pages/NotFound';
 import Home from './pages/Home';
 import Departments from './pages/Departments';
@@ -31,7 +32,7 @@ function App() {
             {/* Rota de fallback (404) */}
             <Route path="*" element={<NotFound />} />
           </Routes>
-          
+          <Footer />
           <ScrollToTopButton />
         </BrowserRouter>
     </>

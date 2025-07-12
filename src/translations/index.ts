@@ -10,6 +10,24 @@ export const translations = {
       join: 'Junta-te a nós',
     },
 
+    footer: {
+      identity: "IEEE IPLeiria",
+      description: "Ramo estudantil oficial da IEEE na Escola Superior de Tecnologia e Gestão — Leiria.",
+      navigation: "Navegação",
+      links: {
+        intro: "Intro",
+        departments: "Departamentos",
+        events: "Eventos",
+        about: "Quem Somos",
+        contacts: "Contactos",
+        join: "Junta-te a Nós"
+      },
+      contacts: "Contactos",
+      email: "📧 ieee@ipleiria.pt",
+      location: "📍 Leiria, Portugal",
+      copyright: "© 2025 IEEE IPLeiria Student Branch. Todos os direitos reservados."
+    },
+
     notFound: {
       title: "Ups! Parece que te perdeste...",
       description: "Por aqui não há conteúdo — mas na IEEE IPLeiria há workshops, desafios e pessoas incríveis à tua espera.",
@@ -352,6 +370,24 @@ export const translations = {
       about: 'About Us',
       contacts: 'Contacts',
       join: 'Join Us',
+    },
+
+    footer: {
+      identity: "IEEE IPLeiria",
+      description: "Official IEEE student branch at School of Technology and Management — Leiria.",
+      navigation: "Navigation",
+      links: {
+        intro: "Intro",
+        departments: "Departments",
+        events: "Events",
+        about: "About Us",
+        contacts: "Contacts",
+        join: "Join Us"
+      },
+      contacts: "Contacts",
+      email: "📧 ieee@ipleiria.pt",
+      location: "📍 Leiria, Portugal",
+      copyright: "© 2025 IEEE IPLeiria Student Branch. All rights reserved."
     },
 
     notFound: {

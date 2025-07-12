@@ -3,6 +3,4 @@ Fotos MDI LLMS
 Ver topicos e textos dos eventos (fora restantes)
 VER DATAS EVENTOS - RANDOM Tava com PRESSA
 
-Atualizar links no Contactos
-JOIN US -> Nao esquecer
-FOOTER
+Atualizar links no Contactos pagina e footer
