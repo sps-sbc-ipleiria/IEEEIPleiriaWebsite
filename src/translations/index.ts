@@ -319,6 +319,28 @@ export const translations = {
       subtitle: "Estamos prontos para esclarecer dúvidas, receber sugestões ou colaborar contigo. Segue-nos ou entra em contacto direto.",
     },
 
+    joinUs: {
+      title: "Junta-te à IEEE",
+      description:
+        "Descobre como te podes envolver com a IEEE IPLeiria Student Branch e beneficiar de uma rede global de inovação, tecnologia e desenvolvimento profissional.",
+      benefits: {
+        title: "Porque te deverias juntar?",
+        globalNetwork: "Rede global de estudantes e profissionais",
+        certifications: "Certificados e oportunidades de desenvolvimento",
+        community: "Comunidade local ativa e colaborativa",
+        innovation: "Acesso a tecnologia, inovação e eventos exclusivos",
+        ieeeXplore: "Acesso a artigos técnicos, conferências e publicações IEEE",
+        eventDiscounts: "Descontos em conferências e eventos IEEE",
+        competitions: "Participação em desafios como IEEEXtreme e Hackathons",
+        careerSupport: "Suporte à carreira com recursos e oportunidades de estágio",
+      },
+      cta: {
+        message: "Queres juntar-te à IEEE, mas tens dúvidas?",
+        subtext: "Fala connosco! Podemos ajudar-te a perceber melhor o que é a IEEE, como funciona e como te podes envolver na nossa comunidade.",
+        button: "Contacta-nos",
+      }
+    },
+
   },
 
   en: {
@@ -638,6 +660,28 @@ export const translations = {
     sectionContact: {
       title: "Get in Touch",
       subtitle: "We're here to answer questions, receive suggestions, or collaborate with you. Follow us or reach out directly.",
+    },
+
+    joinUs: {
+      title: "Join the IEEE",
+      description:
+        "Learn how you can get involved with the IEEE IPLeiria Student Branch and benefit from a global network of innovation, technology, and professional development.",
+      benefits: {
+        title: "Why should you join?",
+        globalNetwork: "Global network of students and professionals",
+        certifications: "Certificates and development opportunities",
+        community: "Active and collaborative local community",
+        innovation: "Access to technology, innovation and exclusive events",
+        ieeeXplore: "Access to IEEE articles, conferences and publications",
+        eventDiscounts: "Discounts on IEEE conferences and events",
+        competitions: "Join competitions like IEEEXtreme and Hackathons",
+        careerSupport: "Career support with resources and internship opportunities",
+      },
+      cta: {
+        message: "Interested in joining IEEE, but not sure how?",
+        subtext: "Talk to us first! We'll help you understand what IEEE is, how it works, and how to get involved in our community.",
+        button: "Contact us",
+      }
     },
 
     },

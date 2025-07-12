@@ -7,6 +7,7 @@ import Departments from './pages/Departments';
 import Events from './pages/Events';
 import About from './pages/About';
 import Contacts from './pages/Contacts';
+import JoinUs from './pages/JoinUs';
 
 
 import ScrollToTopButton from './components/ScrollToTopButton';
@@ -25,6 +26,8 @@ function App() {
             <Route path="/events" element={<Events />} />
             <Route path="/about" element={<About />} />
             <Route path="/contacts" element={<Contacts />} />
+            <Route path="/join" element={<JoinUs />} />
+            
             {/* Rota de fallback (404) */}
             <Route path="*" element={<NotFound />} />
           </Routes>

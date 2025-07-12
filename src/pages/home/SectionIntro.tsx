@@ -83,7 +83,7 @@ export default function SectionIntro() {
           </motion.div>
 
           <motion.a
-            href="#"
+            href="/join"
             className="mt-4 inline-flex items-center gap-2 bg-gradient-to-r from-[#2579B9] to-[#00275c] hover:from-[#003a80] hover:to-[#2579B9] text-white px-8 py-3 rounded-full font-semibold shadow-lg transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-[#2579B9] focus:ring-offset-2"
             variants={{
               hidden: { opacity: 0, y: 10 },

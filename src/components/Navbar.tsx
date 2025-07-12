@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 import IEEEPolitecnico from '../assets/IEEEPolitecnico.svg';
 import { useLanguage } from '../contexts/LanguageContext';
@@ -64,15 +64,13 @@ function Navbar() {
         <ul className="hidden md:flex space-x-6 font-medium h-full items-center">
           {navLinks.map((link) => (
             <li key={link.to} className="h-full flex items-center">
-              <button
-                onClick={() => window.location.href = link.to}
-                className={`relative px-1 py-1 transition-colors duration-200 group bg-transparent ${
-                  location.pathname === link.to ? 'text-[#7ecbff]' : 'text-white'
-                }`}
+              <Link
+                to={link.to}
+                className={`relative px-1 py-1 transition-colors duration-200 group ${location.pathname === link.to ? 'text-[#7ecbff]' : 'text-white'}`}
               >
                 {link.label}
-                <span className="block h-0.5 bg-[#7ecbff] rounded-full transition-all duration-300 scale-x-0 group-hover:scale-x-100 origin-left"></span>
-              </button>
+                <span className="block h-0.5 bg-[#7ecbff] rounded-full transition-all duration-300 scale-x-0 group-hover:scale-x-100 origin-left" style={{ transformOrigin: 'left' }}></span>
+              </Link>
             </li>
           ))}
         </ul>
@@ -81,7 +79,7 @@ function Navbar() {
         <div className="hidden md:flex items-center">
           {/* Botão Join Us (desktop) */}
           <motion.a
-            href="#"
+            href="/join"
             className="hidden md:inline-block ml-4 px-4 py-2 border-2 border-white rounded-lg text-white font-semibold hover:bg-white hover:text-blue-200 transition-colors"
             style={{ backgroundColor: '#2579B9' }}
             whileHover={{ scale: 1.08, backgroundColor: '#1e335c' }}
@@ -114,28 +112,22 @@ function Navbar() {
             transition={{ duration: 0.3 }}
           >
             {navLinks.map((link) => (
-              <button
+              <Link
                 key={link.to}
-                onClick={() => {
-                  setIsMobileMenuOpen(false);
-                  window.location.href = link.to;
-                }}
-                className="block hover:underline w-full text-left"
+                to={link.to}
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="block hover:underline"
               >
                 {link.label}
-              </button>
+              </Link>
             ))}
-
-            <button
-              onClick={() => {
-                setIsMobileMenuOpen(false);
-                window.location.href = "/join";
-              }}
-              className="block mt-2 px-4 py-2 border border-white rounded-full text-white text-center font-semibold hover:bg-white hover:text-blue-900 transition-colors bg-blue-400 w-full"
+            <Link
+              to="/join"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="block mt-2 px-4 py-2 border border-white rounded-full text-white text-center font-semibold hover:bg-white hover:text-blue-900 transition-colors bg-blue-400"
             >
               {t.join}
-            </button>
-
+            </Link>
             <select
               value={lang}
               onChange={(e) => setLang(e.target.value as 'pt' | 'en')}
