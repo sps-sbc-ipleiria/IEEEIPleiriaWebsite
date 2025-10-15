@@ -68,8 +68,7 @@ function SectionContacts() {
         >
           <iframe
             title="Google Maps"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1534.115997600368!2d-8.821927620484647!3d39.73443929672617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2spt!4v1751911446597!5m2!1spt-PT!2spt" 
-            allowFullScreen=""
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1534.115997600368!2d-8.821927620484647!3d39.73443929672617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2spt!4v1751911446597!5m2!1spt-PT!2spt"             
             width="100%"
             height="100%"
             style={{ border: 0 }}

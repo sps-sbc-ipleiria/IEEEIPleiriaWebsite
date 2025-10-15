@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useState } from "react";
 
 interface EventoEspecialProps {
   title: string;
@@ -28,6 +29,14 @@ export default function EventoEspecial({
   images,
   highlights,
 }: EventoEspecialProps) {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
+  const driveLinks: Record<string, string> = {
+    "/events/2025/DlAutonomous/dl1.jpg": "https://drive.google.com/.../dl1",
+    "/events/2025/DlAutonomous/dl2.jpg": "https://drive.google.com/.../dl2",
+    // adicionar links para todas as imagens
+  };
+
   return (
     <div className="min-h-screen  flex flex-col items-center">
       {/* Hero Image */}
@@ -55,36 +64,73 @@ export default function EventoEspecial({
         transition={{ duration: 0.8 }}
       >
         <div className="backdrop-blur-xl bg-white/70 rounded-2xl shadow-2xl p-6 sm:p-10 space-y-4 sm:space-y-6">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#00275c] tracking-tight">{title}</h2>
-          {subtitle && <p className="text-lg sm:text-xl text-blue-500 font-medium">{subtitle}</p>}
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#00275c] tracking-tight">
+            {title}
+          </h2>
+          {subtitle && (
+            <p className="text-lg sm:text-xl text-blue-500 font-medium">
+              {subtitle}
+            </p>
+          )}
           <div className="flex flex-wrap gap-2 sm:gap-4 items-center text-blue-900 font-semibold text-base sm:text-lg mt-2">
             <span>📅 {date}</span>
             <span className="hidden sm:inline">|</span>
             <span>📍 {location}</span>
           </div>
-          <p className="mt-2 sm:mt-4 text-gray-700 text-base sm:text-lg leading-relaxed text-justify">{description}</p>
+          <p className="mt-2 sm:mt-4 text-gray-700 text-base sm:text-lg leading-relaxed text-justify">
+            {description}
+          </p>
         </div>
       </motion.div>
 
       {/* Gallery */}
-      {images.length > 1 && (
-        <motion.div
-          className="flex gap-3 sm:gap-4 mt-8 sm:mt-12 px-4 w-full max-w-4xl overflow-x-auto scrollbar-thin scrollbar-thumb-blue-200"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          viewport={{ amount: 0.3 }}
-        >
-          {images.slice(1).map((src, i) => (
+        {images.length > 1 && (
+          <motion.div
+            className="flex gap-3 sm:gap-4 mt-8 sm:mt-12 px-4 w-full max-w-4xl overflow-x-auto scrollbar-thin scrollbar-thumb-blue-200"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            viewport={{ amount: 0.3 }}
+          >
+            {images.slice(1).map((src, i) => (
             <motion.img
               key={i}
               src={src}
               alt={`imagem ${i + 2}`}
               className="rounded-xl shadow-md w-40 h-28 sm:w-56 sm:h-36 object-cover flex-shrink-0 hover:scale-105 transition-transform duration-300"
               whileHover={{ scale: 1.07 }}
+              onClick={() => setSelectedImage(src)}
+
             />
           ))}
         </motion.div>
+      )}
+
+     
+      {/* Modal */}
+      {selectedImage && (
+        <div className="fixed inset-0 bg-black/80 flex justify-center items-center z-50">
+          <img
+            src={selectedImage}
+            alt="imagem grande"
+            className="max-w-[90%] max-h-[90%] rounded-lg shadow-lg cursor-pointer"
+            onClick={() => {
+              // ao clicar, redirecionar para o drive
+              const driveUrl = driveLinks[selectedImage];
+              if (driveUrl) {
+                window.open(driveUrl, "_blank");
+              }
+              setSelectedImage(null); // fecha o modal
+            }}
+          />
+          {/* botão para fechar manualmente */}
+          <button
+            className="absolute top-5 right-5 text-white text-3xl"
+            onClick={() => setSelectedImage(null)}
+          >
+            ✕
+          </button>
+        </div>
       )}
 
       {/* Highlights */}

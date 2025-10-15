@@ -13,7 +13,6 @@ import {
   type VariantLabels,
   type Target,
   type TargetAndTransition,
-  type AnimationControls,
 } from "framer-motion";
 
 function cn(...classes: (string | undefined | null | boolean)[]): string {
@@ -35,8 +34,8 @@ export interface RotatingTextProps
   texts: string[];
   transition?: Transition;
   initial?: boolean | Target | VariantLabels;
-  animate?: boolean | VariantLabels | AnimationControls | TargetAndTransition;
-  exit?: boolean | Target | VariantLabels;
+  animate?: boolean | VariantLabels | TargetAndTransition;
+  exit?: TargetAndTransition | VariantLabels;
   animatePresenceMode?: "sync" | "wait";
   animatePresenceInitial?: boolean;
   rotationInterval?: number;

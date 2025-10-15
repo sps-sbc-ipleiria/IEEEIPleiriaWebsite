@@ -1,6 +1,17 @@
 Adaptar Index.html -> icon
 Fotos MDI LLMS
 Ver topicos e textos dos eventos (fora restantes)
-VER DATAS EVENTOS - RANDOM Tava com PRESSA
+Botão ver Eventos Anteriores
 
+VER DATAS EVENTOS -
 Atualizar links no Contactos pagina e footer
+
+
+
+
+Eventos futuros -> juntar aos workshops no Inicio
+cartao final para vert amis
+
+CARROSEL PARA EVENTOS WORKSHOP NO ICON
+Contactos.> link para grupo zap
+e colocar form com nome e numero .> na secção junta-te a nos

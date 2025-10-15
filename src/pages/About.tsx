@@ -2,7 +2,6 @@ import { useLanguage } from '../contexts/LanguageContext';
 import TeamCard from '../pages/about/Card';
 import { translations } from '../translations';
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
 
 function About() {
   const { lang } = useLanguage();
@@ -14,14 +13,16 @@ function About() {
     cs:  "bg-[#fff8f0] border-[#f7941d] border-1",
   };
 
-  const cardVariants = {
-    hidden: { opacity: 0, y: 30 },
-    visible: (i: number) => ({
-      opacity: 1,
-      y: 0,
-      transition: { delay: 0.2 + i * 0.12, duration: 0.6 }
-    }),
-  };
+  const spsMembers = [
+    { image: "/assets/cards/sps/Nicolas.png", name: "Nicolas Vasconcellos", roleKey: "president" },
+    { image: "/assets/cards/sps/Daniel.jpg", name: "Daniel Nicolau", roleKey: "vicePresident" },
+    { image: "/assets/cards/sps/Nuno.jpg", name: "Nuno Fernandes", roleKey: "secretary" },
+    { image: "/assets/cards/sps/Rúben.jpg", name: "Rúben Francisco", roleKey: "treasurer" },
+    { image: "/assets/cards/sps/Marco.jpg", name: "Marco Rebelo", roleKey: "webmaster" },
+    { image: "/assets/cards/sps/asd.jpg", name: "Pessoal a add1", roleKey: "member" },
+    { image: "/assets/cards/sps/asd.jpg", name: "Pessoal a add2", roleKey: "member" },
+    { image: "/assets/cards/sps/asd.jpg", name: "Pessoal a add3", roleKey: "member" },
+  ] as const;
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#eaf1fa] via-[#f7fafd] to-[#e3eaf6] py-12 px-2 sm:px-4 flex flex-col items-center">
@@ -43,6 +44,7 @@ function About() {
       </motion.p>
 
       {/* === SPS === */}
+      {/* === SPS Section === */}
       <motion.section
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -66,18 +68,9 @@ function About() {
         >
           {t.departments.sps.description}
         </motion.p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-items-center">
-          {[
-            { image: "/assets/cards/sps/Nicolas.png", name: "Nicolas Vasconcellos", roleKey: "president" },
-            { image: "/assets/cards/sps/Daniel.jpg", name: "Daniel Nicolau", roleKey: "vicePresident" },
-            { image: "/assets/cards/sps/Nuno.jpg", name: "Nuno Fernandes", roleKey: "secretary" },
-            { image: "/assets/cards/sps/Rúben.jpg", name: "Rúben Francisco", roleKey: "treasurer" },
-            { image: "/assets/cards/sps/Marco.jpg", name: "Marco Rebelo", roleKey: "webmaster" },
-            { image: "/assets/cards/sps/asd.jpg", name: "Pessoal a add1", roleKey: "treasurer" },
-            { image: "/assets/cards/sps/asd.jpg", name: "Pessoal a add2", roleKey: "treasurer" },
-            { image: "/assets/cards/sps/asd.jpg", name: "Pessoal a add3", roleKey: "treasurer" },
 
-          ].map((member, i) => (
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 justify-items-center mt-8">
+          {spsMembers.map((member, i) => (
             <motion.div
               key={member.name}
               initial={{ opacity: 0, y: 20 }}
@@ -89,8 +82,9 @@ function About() {
           ))}
         </div>
       </motion.section>
+      
 
-      {/* === PES === */}
+      {/* === PES === 
       <motion.section
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -134,8 +128,9 @@ function About() {
           ))}
         </div>
       </motion.section>
+      */}
 
-      {/* === CS === */}
+      {/* === CS === 
       <motion.section
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -178,7 +173,7 @@ function About() {
             </motion.div>
           ))}
         </div>
-      </motion.section>
+      </motion.section>*/}
 
       {/*Conclusao*/}
       <motion.div
