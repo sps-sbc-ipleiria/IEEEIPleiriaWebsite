@@ -40,7 +40,7 @@ export default function TeamCard({
         <h3 className="font-semibold text-[#00275c] text-lg leading-tight truncate">
           {name}
         </h3>
-        <p className="text-sm text-[#78bd1f] font-medium mt-1">{role}</p>
+        <p className="text-sm text-emerald-700 font-medium mt-1">{role}</p>
       </div>
     </motion.div>
   );

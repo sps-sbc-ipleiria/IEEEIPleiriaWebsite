@@ -687,7 +687,7 @@ export const translations = {
       vicePresident: "Vice President",
       secretary: "Secretary",
       treasurer: "Treasurer",
-      webmaster: "WebMaster",
+      webmaster: "Web Master",
       marketingLead: "Marketing Lead",
       designLead: "Design Lead",
       member: "Member",
