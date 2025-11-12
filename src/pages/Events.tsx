@@ -9,7 +9,7 @@ import SectionConclusionEvents from './events/SectionConclusionEvents';
 function Events() {
   return (
       <>
-        <SectionEventsIntro />
+        {/* <SectionEventsIntro /> */}
         <DlAutonomous />
         <MdiLLMS />
         <WorkshopPytorch />

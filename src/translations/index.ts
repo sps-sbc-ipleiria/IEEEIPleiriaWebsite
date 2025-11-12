@@ -3,7 +3,7 @@ export const translations = {
 
     navbar: {
       home: 'Início',
-      departments: 'Departamentos',
+      departments: 'Sociedades',
       events: 'Eventos',
       about: 'Quem Somos',
       contacts: 'Contactos',
@@ -16,7 +16,7 @@ export const translations = {
       navigation: "Navegação",
       links: {
         intro: "Intro",
-        departments: "Departamentos",
+        departments: "Sociedades",
         events: "Eventos",
         about: "Quem Somos",
         contacts: "Contactos",
@@ -51,9 +51,9 @@ export const translations = {
     },
 
     sectionHeroDepartments: {
-      title: "Conhece os Departamentos Técnicos da IEEE IPLeiria",
+      title: "Conhece as sociedades do IEEE IPLeiria",
       subtitle: "Explora as sociedades que moldam o futuro da engenharia e tecnologia 💡",
-      button: "Explorar Departamentos",
+      button: "Explorar Sociedades",
     },
 
     sectionIEEE: {
@@ -90,9 +90,9 @@ export const translations = {
     },
 
     sectionAboutDepartments: {
-      title: "O que são os Departamentos IEEE?",
+      title: "O que são as Sociedades do IEEE?",
       description:
-        "Os departamentos técnicos da IEEE IPLeiria permitem aos estudantes explorar áreas específicas da engenharia e tecnologia. São espaços de aprendizagem, inovação e colaboração, onde transformas interesse em impacto real.",
+        "As sociedades técnicas da IEEE IPLeiria permitem aos estudantes explorar áreas específicas da engenharia e tecnologia. São espaços de aprendizagem, inovação e colaboração, onde transformas interesse em impacto real.",
       workshops: {
         title: "Workshops",
         text:
@@ -119,13 +119,13 @@ export const translations = {
     },
 
     sectionSPS: {
-      title: "Departamento SPS — Signal Processing Society",
+      title: "Signal Processing Society",
       description:
-        "A SPS é uma sociedade técnica da IEEE dedicada ao processamento de sinais — áudio, imagem, vídeo, sensores e muito mais. Atua em áreas como áudio e voz, visão computacional, inteligência artificial e redes de comunicação. O capítulo da IPLeiria organiza eventos, palestras e workshops com foco em multimédia, tecnologia e aplicações reais.",
+        "A SPS é uma sociedade técnica do IEEE dedicada ao processamento de sinais — áudio, imagem, vídeo, sensores e muito mais. Atua em áreas como áudio e voz, visão computacional, inteligência artificial e redes de comunicação. O capítulo do IPLeiria organiza eventos, palestras e workshops com foco em multimédia, tecnologia e aplicações reais.",
       about: {
           title: "Sobre o IEEE SPS SBC IPLeiria",
           points: [
-            "Fundado a 6 de junho de 2024, o IEEE SPS Student Branch Chapter da IPLeiria é o primeiro do género em Portugal.",
+            "Fundado a 6 de junho de 2024, o IEEE SPS Student Branch Chapter do IPLeiria é o primeiro do género em Portugal.",
             "É uma plataforma para estudantes apaixonados por processamento de sinal se ligarem, inovarem e crescerem academicamente.",
             "O IEEE SPS Portugal Chapter foi fundado em janeiro de 2024, marcando um marco para a comunidade nacional de Signal Processing.",
           ],
@@ -138,7 +138,7 @@ export const translations = {
         },
         {
           title: "Oportunidades de Networking",
-          text: "Colabora com estudantes, professores e profissionais de Portugal e de outros países através de eventos e iniciativas SPS.",
+          text: "Colabora com estudantes, professores e profissionais de Portugal e de outros países através de eventos e iniciativas da SPS.",
         },
         {
           title: "Projetos Práticos",
@@ -189,9 +189,9 @@ export const translations = {
     },
 
     sectionPES: {
-      title: "Departamento PES — Power & Energy Society",
+      title: "Power & Energy Society",
       description:
-        "A PES é a sociedade da IEEE dedicada à energia elétrica e sustentabilidade. O capítulo da IPLeiria promove a formação e discussão sobre energias renováveis, redes inteligentes, mobilidade elétrica e eficiência energética.",
+        "A PES é a sociedade do IEEE dedicada à energia elétrica e sustentabilidade. O capítulo do IPLeiria promove a formação e discussão sobre energias renováveis, redes inteligentes, mobilidade elétrica e eficiência energética.",
 
       about: {
         title: "Sobre o IEEE PES SBC IPLeiria",
@@ -225,11 +225,11 @@ export const translations = {
     },
 
     sectionConclusionDepartments: {
-      title: "Diversos Departamentos, Uma Só Missão",
+      title: "Diversas Sociedades, Uma Só Missão",
       description:
-        "Juntos, a SPS, a CS e a PES formam a base do nosso impacto. De inteligência artificial a energia renovável, a IEEE IPLeiria está a transformar ideias em ação.",
+        "Juntos, a SPS e a PES formam a base do nosso impacto. De inteligência artificial a energia renovável, o IEEE IPLeiria está a transformar ideias em ação.",
       exploreEvents: "Explorar Eventos",
-      join: "Junta-te à IEEE",
+      join: "Junta-te ao IEEE",
     },
 
     sectionEventsIntro: { 
@@ -269,7 +269,7 @@ export const translations = {
     workshopLatex: {
       title: "Workshop LaTeX",
       description:
-        "Este workshop abordou os fundamentos do LaTeX, capacitando os participantes a produzir documentos científicos de forma profissional, com foco em relatórios, artigos e apresentações.",
+        "Descobre como criar documentos científicos com qualidade profissional! Neste workshop, vais aprender os fundamentos do LaTeX, uma ferramenta essencial para a produção de relatórios, artigos e apresentações com rigor académico e visual impecável. Ideal para estudantes, investigadores e profissionais que querem elevar o nível dos seus trabalhos!",
       type: "Workshop Técnico",
       date: "4 de dezembro, 2024",
       location: "Sala D.S.01.14, ESTG",
@@ -278,7 +278,7 @@ export const translations = {
     pytorchWorkshop: {
       title: "Workshop PyTorch",
       description:
-        "Este workshop foi dedicado à introdução ao PyTorch, uma das bibliotecas mais populares para machine learning e deep learning. Os participantes aprenderam a construir e treinar redes neuronais simples, explorando conceitos fundamentais de inteligência artificial de forma prática.",
+        "Junta-te a nós para uma sessão prática e envolvente dedicada ao PyTorch, uma das bibliotecas mais populares para machine learning e deep learning! Neste workshop, vais aprender a construir e treinar redes neuronais simples, explorando de forma acessível e interativa os conceitos fundamentais da inteligência artificial. Ideal para quem quer dar os primeiros passos no mundo do deep learning!",
       type: "Workshop Técnico",
       date: "18 de dezembro, 2024",
       location: "Sala D.S.01.14, ESTG",
@@ -287,7 +287,7 @@ export const translations = {
     microchipLecture: {
       title: "Aula Aberta: Introdução aos Microcontroladores",
       description:
-        "Nesta aula aberta, os participantes tiveram contacto com os conceitos fundamentais dos microcontroladores, explorando a sua estrutura, funcionamento e aplicações práticas em sistemas embebidos. Foi apresentada uma visão introdutória sobre programação e controlo de dispositivos eletrónicos.",
+        "Vem descobrir o mundo dos microcontroladores e o seu papel essencial nos sistemas embebidos! Nesta aula aberta, vais explorar a estrutura, funcionamento e aplicações práticas destes dispositivos, além de obter uma introdução à programação e controlo de componentes eletrónicos. Uma oportunidade ideal para quem quer compreender como a eletrónica dá vida à tecnologia!",
       type: "Aula Aberta",
       date: "27 de novembro, 2024",
       location: "Auditório 1, ESTG",
@@ -365,7 +365,7 @@ export const translations = {
 
     navbar: {
       home: 'Home',
-      departments: 'Departments',
+      departments: 'Societies',
       events: 'Events',
       about: 'About Us',
       contacts: 'Contacts',
@@ -378,7 +378,7 @@ export const translations = {
       navigation: "Navigation",
       links: {
         intro: "Intro",
-        departments: "Departments",
+        departments: "Societies",
         events: "Events",
         about: "About Us",
         contacts: "Contacts",
@@ -413,9 +413,9 @@ export const translations = {
     },
 
     sectionHeroDepartments: {
-      title: "Discover the Technical Departments of IEEE IPLeiria",
+      title: "Discover the societies of IEEE IPLeiria",
       subtitle: "Explore the societies shaping the future of engineering and technology 💡",
-      button: "Explore Departments",
+      button: "Explore Societies",
     },
 
     sectionIEEE: {
@@ -452,9 +452,9 @@ export const translations = {
     },
 
     sectionAboutDepartments: {
-      title: "What are the IEEE Departments?",
+      title: "What are the IEEE Societies?",
       description:
-        "The technical departments at IEEE IPLeiria empower students to explore specific areas of engineering and technology. They are spaces for learning, innovation, and collaboration — where you turn curiosity into real-world impact.",
+        "The technical societies at IEEE IPLeiria empower students to explore specific areas of engineering and technology. They are spaces for learning, innovation, and collaboration — where you turn curiosity into real-world impact.",
       workshops: {
         title: "Workshops",
         text:
@@ -481,13 +481,13 @@ export const translations = {
     },
 
     sectionSPS: {
-      title: "SPS Department — Signal Processing Society",
+      title: "Signal Processing Society",
       description:
         "SPS is a technical society of IEEE focused on signal processing — audio, image, video, sensors, and more. It covers key areas such as audio and speech, computer vision, artificial intelligence, and communication networks. At IPLeiria, the chapter organizes events, talks and workshops focused on multimedia, technology and real-world applications.",
       about: {
         title: "About IEEE SPS SBC IPLeiria",
         points: [
-          "Founded on June 6th, 2024, the IEEE SPS Student Branch Chapter at IPLeiria is the first of its kind in Portugal.",
+          "Founded on June 6th, 2024, the IEEE SPS Student Branch Chapter of IPLeiria is the first of its kind in Portugal.",
           "It is a platform for students passionate about signal processing to connect, innovate, and grow academically.",
           "The IEEE SPS Portugal Chapter was founded in January 2024, marking a milestone for the national Signal Processing community.",
         ],
@@ -550,7 +550,7 @@ export const translations = {
     },
 
     sectionPES: {
-      title: "PES Department — Power & Energy Society",
+      title: "Power & Energy Society",
       description:
         "IEEE PES is dedicated to electric power and sustainable energy. The IPLeiria chapter promotes training and discussion on renewable energy, smart grids, electric mobility and energy efficiency.",
 
@@ -586,9 +586,9 @@ export const translations = {
     },
 
     sectionConclusionDepartments: {
-      title: "Several Departments, One Mission",
+      title: "Several Societies, One Mission",
       description:
-        "Together, SPS, CS, and PES form the foundation of our impact. From AI to renewable energy, IEEE IPLeiria is turning ideas into action.",
+        "Together, SPS and PES form the foundation of our impact. From AI to renewable energy, IEEE IPLeiria is turning ideas into action.",
       exploreEvents: "Explore Events",
       join: "Join IEEE",
     },
@@ -630,7 +630,7 @@ export const translations = {
     workshopLatex: {
       title: "LaTeX Workshop",
       description:
-        "This workshop covered the fundamentals of LaTeX, enabling participants to produce scientific documents professionally, with a focus on reports, articles, and presentations.",
+        "Learn how to create professional-quality scientific documents! In this workshop, you’ll explore the fundamentals of LaTeX, a powerful tool for producing reports, research papers, and presentations with academic precision and a polished look. Perfect for students, researchers, and professionals who want to take their documents to the next level!",
       type: "Technical Workshop",
       date: "December 4th, 2024",
       location: "Room D.S.01.14, ESTG",
@@ -639,7 +639,7 @@ export const translations = {
     pytorchWorkshop: {
       title: "PyTorch Workshop",
       description:
-        "This workshop was dedicated to introducing PyTorch, one of the most popular libraries for machine learning and deep learning. Participants learned how to build and train simple neural networks, exploring core artificial intelligence concepts through hands-on practice.",
+        "Join us for a hands-on and engaging session dedicated to PyTorch, one of the most popular libraries for machine learning and deep learning! In this workshop, you’ll learn how to build and train simple neural networks, while exploring the core concepts of artificial intelligence in a practical and interactive way. Perfect for anyone looking to take their first steps into the world of deep learning!",
       type: "Technical Workshop",
       date: "December 18th, 2024",
       location: "Room D.S.01.14, ESTG",
@@ -648,7 +648,7 @@ export const translations = {
     microchipLecture: {
       title: "Open Lecture: Introduction to Microcontrollers",
       description:
-        "In this open lecture, participants were introduced to the fundamental concepts of microcontrollers, exploring their structure, functionality, and practical applications in embedded systems. An introductory overview was presented on programming and controlling electronic devices.",
+        "Discover the world of microcontrollers and their key role in embedded systems! In this open class, you’ll explore the structure, operation, and practical applications of these devices, while gaining an introductory understanding of programming and electronic device control. A perfect opportunity to learn how electronics bring technology to life!",
       type: "Open Lecture",
       date: "November 27th, 2024",
       location: "Auditorium 1, ESTG",

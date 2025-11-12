@@ -15,7 +15,7 @@ function Departments() {
         <div id="departamentos">
           <br></br>
           <SectionSPS />
-          <SectionCS />
+          {/* <SectionCS /> */}
           <SectionPES />
         </div>
         <SectionConclusionDepartments />
