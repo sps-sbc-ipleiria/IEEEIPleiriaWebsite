@@ -12,11 +12,11 @@ export const translations = {
 
     footer: {
       identity: "IEEE IPLeiria",
-      description: "Ramo estudantil oficial da IEEE na Escola Superior de Tecnologia e Gestão — Leiria.",
+      description: "Ramo estudantil oficial do IEEE na Escola Superior de Tecnologia e Gestão — Leiria.",
       navigation: "Navegação",
       links: {
         intro: "Intro",
-        departments: "Sociedades",
+        departments: "Departamentos",
         events: "Eventos",
         about: "Quem Somos",
         contacts: "Contactos",
@@ -30,51 +30,51 @@ export const translations = {
 
     notFound: {
       title: "Ups! Parece que te perdeste...",
-      description: "Por aqui não há conteúdo — mas na IEEE IPLeiria há workshops, desafios e pessoas incríveis à tua espera.",
+      description: "Por aqui não há conteúdo — mas no IEEE IPLeiria há workshops, desafios e pessoas incríveis à tua espera.",
       link: "Voltar ao início",
     },
 
     sectionHero: {
-      title: "Bem-vindo à IEEE IPLeiria",
+      title: "Bem-vindo ao IEEE IPLeiria",
       staticText: "Impulsionamos estudantes através de",
       rotatingWords: [
-        "Inovação.",
-        "Tecnologia.",
-        "Projetos reais.",
-        "Workshops práticos.",
-        "Comunidade.",
-        "Crescimento pessoal.",
-        "Aprendizagem contínua.",
-        "Impacto positivo."
+        "Inovação",
+        "Tecnologia",
+        "Projetos reais",
+        "Workshops práticos",
+        "Comunidade",
+        "Crescimento pessoal",
+        "Aprendizagem contínua",
+        "Impacto positivo"
       ],
       button: "Junta-te a nós",
     },
 
     sectionHeroDepartments: {
-      title: "Conhece as sociedades do IEEE IPLeiria",
+      title: "Conhece os Departamentos Técnicos do IEEE IPLeiria",
       subtitle: "Explora as sociedades que moldam o futuro da engenharia e tecnologia 💡",
-      button: "Explorar Sociedades",
+      button: "Explorar Departamentos",
     },
 
     sectionIEEE: {
       title: 'IEEE: Identidade e Compromisso com a Inovação',
-      missionTitle: 'Nossa Missão:',
-      impactTitle: 'Principais Áreas de impacto:',
+      missionTitle: 'A Nossa Missão:',
+      impactTitle: 'Principais Áreas de Impacto:',
       paragraph1:
-        'O Institute of Electrical and Electronics Engineers (IEEE) é a maior organização profissional do mundo dedicada ao avanço da tecnologia em benefício da humanidade. Com mais de 400.000 membros em 160 países, o IEEE está na vanguarda da inovação, do compartilhamento de conhecimento e do desenvolvimento profissional.',
+        'O Institute of Electrical and Electronics Engineers (IEEE) é a maior organização profissional do mundo dedicada ao avanço da tecnologia em benefício da humanidade. Com mais de 468 000 membros distribuídos por 160 países, o IEEE está na vanguarda da inovação, do desenvolvimento profissional e da partilha de conhecimento científico e técnico.',
       paragraph2:
-        'Fomentar a inovação tecnológica, promover o crescimento profissional e contribuir para um amanhã melhor, com a conexão de engenheiros, cientistas e profissionais de diferentes áreas.',
+        'Promover a inovação tecnológica, impulsionar o crescimento profissional e contribuir para um futuro melhor, aproximando engenheiros, cientistas e profissionais de múltiplas áreas.',
       paragraph3:
-        'Pesquisas e publicações, conferências globais e padrões técnicos, oportunidades para networking profissional e desenvolvimento de habilidades, além de iniciativas que apoiam a educação e o engajamento comunitário.',
+        'Investigação e publicações científicas, conferências globais e definição de normas técnicas, oportunidades de networking e desenvolvimento de competências, bem como iniciativas que apoiam a educação e o envolvimento com a comunidade.',
     },
 
     sectionBranches: {
-        title: "A nossa Rede De Student Branches",
+        title: "A Nossa Rede de Student Branch Chapters",
         paragraph1:
-            "O nosso Ramo Estudantil faz parte da rede global do IEEE e integra sociedades como a Signal Processing Society (SPS), a Computer Society e a Power & Energy Society (PES), com o intuito de trazer o conhecimento técnico destas áreas para a nossa realidade académica.",
+            "O Ramo Estudantil do IEEE do Instituto Politécnico de Leiria integra a rede global do IEEE e inclui Student Branch Chapters das sociedades Signal Processing Society (SPS) e Power & Energy Society (PES), com o objetivo de aproximar o conhecimento técnico destas áreas da nossa realidade académica.",
         paragraph2:
-            "Com uma equipa curiosa e dinâmica, organizamos workshops, palestras e sessões de networking, que promovem o desenvolvimento de competências técnicas e interpessoais. Num ambiente colaborativo, acreditamos que, ao ajudarmos os outros a crescer, crescemos todos juntos.",
-        link: "Ler mais sobre os Student Branches",
+            "Com uma equipa curiosa e dinâmica, organizamos workshops, palestras e sessões de networking que promovem o desenvolvimento de competências técnicas e interpessoais. Num ambiente colaborativo e inclusivo, acreditamos que, ao ajudarmos os outros a crescer, crescemos todos juntos.",
+        link: "Descobre mais sobre os nossos Student Branch Chapters",
     },
 
     sectionEvents: {
@@ -84,15 +84,15 @@ export const translations = {
 
     sectionHomeConclusion: {
       title: "O Futuro Começa Aqui",
-      subtitle: "Na IEEE IPLeiria, damos voz às ideias, formamos líderes e impulsionamos tecnologia com propósito. Junta-te ao movimento.",
+      subtitle: "No IEEE IPLeiria, damos voz às ideias, formamos líderes e impulsionamos tecnologia com propósito. Junta-te ao movimento.",
       join: "Tornar-me Membro",
-      departments: "Conhecer os Departamentos",
+      departments: "Conhecer as Sociedades",
     },
 
     sectionAboutDepartments: {
-      title: "O que são as Sociedades do IEEE?",
+      title: "O que são os Departamentos IEEE?",
       description:
-        "As sociedades técnicas da IEEE IPLeiria permitem aos estudantes explorar áreas específicas da engenharia e tecnologia. São espaços de aprendizagem, inovação e colaboração, onde transformas interesse em impacto real.",
+        "Os departamentos técnicos do IEEE IPLeiria permitem aos estudantes explorar áreas específicas da engenharia e tecnologia. São espaços de aprendizagem, inovação e colaboração, onde transformas interesse em impacto real.",
       workshops: {
         title: "Workshops",
         text:
@@ -106,26 +106,26 @@ export const translations = {
       community: {
         title: "Comunidade",
         text:
-          "Ao juntares-te à IEEE IPLeiria, entras numa comunidade inspiradora, colaborativa e cheia de talento. Aqui vais encontrar colegas com os mesmos interesses, apoio para desenvolver ideias, e motivação para transformar projetos em realidade.",
+          "Ao juntares-te ao IEEE IPLeiria, entras numa comunidade inspiradora, colaborativa e cheia de talento. Aqui vais encontrar colegas com os mesmos interesses, apoio para desenvolver ideias, e motivação para transformar projetos em realidade.",
       },
     },
 
     // https://spectrum.ieee.org/ieee-presidents-note-march-2024
     sectionQuote: {
       quote:
-        "Para mim, a IEEE é uma comunidade de profissionais tecnológicos que se ajudam mutuamente a manter-se atualizados, a desenvolver competências profissionais valiosas, e a trabalharem juntos para tornar o mundo um lugar melhor hoje e para as gerações futuras.",
+        "For me, IEEE is a community of technological professionals who help each other stay current, develop valuable professional skills, and work together to make the world a better place today and for generations to come.",
       name: "Dr. Tom Coughlin",
-      role: "Presidente da IEEE (2024)",
+      role: "Presidente do IEEE (2024)",
     },
 
     sectionSPS: {
-      title: "Signal Processing Society",
+      title: "Departamento SPS — Signal Processing Society",
       description:
-        "A SPS é uma sociedade técnica do IEEE dedicada ao processamento de sinais — áudio, imagem, vídeo, sensores e muito mais. Atua em áreas como áudio e voz, visão computacional, inteligência artificial e redes de comunicação. O capítulo do IPLeiria organiza eventos, palestras e workshops com foco em multimédia, tecnologia e aplicações reais.",
+        "A SPS é uma sociedade técnica do IEEE dedicada ao processamento de sinais — áudio, imagem, vídeo, sensores e muito mais. Atua em áreas como áudio e voz, visão computacional, inteligência artificial e redes de comunicação. O capítulo da IPLeiria organiza eventos, palestras e workshops com foco em multimédia, tecnologia e aplicações reais.",
       about: {
           title: "Sobre o IEEE SPS SBC IPLeiria",
           points: [
-            "Fundado a 6 de junho de 2024, o IEEE SPS Student Branch Chapter do IPLeiria é o primeiro do género em Portugal.",
+            "Fundado a 6 de junho de 2024, o IEEE SPS Student Branch Chapter da IPLeiria é o primeiro do género em Portugal.",
             "É uma plataforma para estudantes apaixonados por processamento de sinal se ligarem, inovarem e crescerem academicamente.",
             "O IEEE SPS Portugal Chapter foi fundado em janeiro de 2024, marcando um marco para a comunidade nacional de Signal Processing.",
           ],
@@ -138,7 +138,7 @@ export const translations = {
         },
         {
           title: "Oportunidades de Networking",
-          text: "Colabora com estudantes, professores e profissionais de Portugal e de outros países através de eventos e iniciativas da SPS.",
+          text: "Colabora com estudantes, professores e profissionais de Portugal e de outros países através de eventos e iniciativas SPS.",
         },
         {
           title: "Projetos Práticos",
@@ -146,7 +146,7 @@ export const translations = {
         },
         {
           title: "Competições e Eventos",
-          text: "Entra em desafios da IEEE SPS como o SP Cup e VIP Cup, e participa em iniciativas regionais e académicas.",
+          text: "Entra em desafios do IEEE SPS como o SP Cup e VIP Cup, e participa em iniciativas regionais e académicas.",
         },
       ],
       seeEvents: "Vê os nossos eventos e participa!",
@@ -155,12 +155,12 @@ export const translations = {
     sectionCS: {
       title: "Departamento CS — Computer Society",
       description:
-        "A Computer Society é a maior sociedade técnica da IEEE, dedicada ao avanço da computação e das tecnologias digitais. O capítulo da IPLeiria promove o desenvolvimento de competências em áreas como programação, cibersegurança, sistemas inteligentes, e ciência de dados, com eventos técnicos, projetos práticos e ligação à indústria.",
+        "A Computer Society é a maior sociedade técnica do IEEE, dedicada ao avanço da computação e das tecnologias digitais. O capítulo da IPLeiria promove o desenvolvimento de competências em áreas como programação, cibersegurança, sistemas inteligentes, e ciência de dados, com eventos técnicos, projetos práticos e ligação à indústria.",
 
       about: {
         title: "Sobre o IEEE CS SBC IPLeiria",
         points: [
-          "O capítulo estudantil da IEEE Computer Society na IPLeiria promove a aprendizagem colaborativa em ciência e engenharia informática.",
+          "O capítulo estudantil do IEEE Computer Society na IPLeiria promove a aprendizagem colaborativa em ciência e engenharia informática.",
           "Organizamos eventos focados em programação, desenvolvimento web, IA, cibersegurança e boas práticas de engenharia de software.",
           "Criamos pontes entre estudantes, professores e profissionais através de workshops, hackathons e palestras técnicas.",
         ],
@@ -189,14 +189,14 @@ export const translations = {
     },
 
     sectionPES: {
-      title: "Power & Energy Society",
+      title: "Departamento PES — Power & Energy Society",
       description:
-        "A PES é a sociedade do IEEE dedicada à energia elétrica e sustentabilidade. O capítulo do IPLeiria promove a formação e discussão sobre energias renováveis, redes inteligentes, mobilidade elétrica e eficiência energética.",
+        "A PES é a sociedade do IEEE dedicada à energia elétrica e sustentabilidade. O capítulo da IPLeiria promove a formação e discussão sobre energias renováveis, redes inteligentes, mobilidade elétrica e eficiência energética.",
 
       about: {
         title: "Sobre o IEEE PES SBC IPLeiria",
         points: [
-          "A IEEE PES promove o desenvolvimento tecnológico na área da energia, com foco em soluções sustentáveis para a sociedade.",
+          "O IEEE PES promove o desenvolvimento tecnológico na área da energia, com foco em soluções sustentáveis para a sociedade.",
           "O nosso capítulo estudantil oferece oportunidades para estudantes explorarem tópicos de energia de forma aplicada.",
           "Organizamos eventos que ligam academia e indústria no contexto da transição energética.",
         ],
@@ -225,9 +225,9 @@ export const translations = {
     },
 
     sectionConclusionDepartments: {
-      title: "Diversas Sociedades, Uma Só Missão",
+      title: "Diversos Departamentos, Uma Só Missão",
       description:
-        "Juntos, a SPS e a PES formam a base do nosso impacto. De inteligência artificial a energia renovável, o IEEE IPLeiria está a transformar ideias em ação.",
+        "Juntos, a SPS, a CS e a PES formam a base do nosso impacto. De inteligência artificial a energia renovável, o IEEE IPLeiria está a transformar ideias em ação.",
       exploreEvents: "Explorar Eventos",
       join: "Junta-te ao IEEE",
     },
@@ -240,36 +240,52 @@ export const translations = {
     },
 
     mdiLlms: {
-      title: "MDI LLMS",
-      subtitle: "Machine Learning para Sistemas Multimédia",
-      date: "Março 2025",
+      title: "2025 Cycle 1 IEEE SPS Chapter Initiative on Large Language Models",
+      subtitle: "Desmistifica a engenharia por trás do ChatGPT e outros LLMs",
+      date: "28 de maio, 2025",
       location: "ESTG, IPL",
       description:
-        "O MDI LLMS reuniu estudantes e especialistas para explorar soluções modernas de machine learning aplicadas a sistemas multimédia. O evento contou com sessões práticas, palestras de investigadores e momentos de networking técnico.",
+        "Explora os Large Language Models (LLMs), combinando palestras de especialistas de referência e workshops práticos para compreender a tecnologia por trás de modelos como o ChatGPT e experimentar aplicações reais em geração de texto e inteligência artificial.",
       highlights: [
-        "Oradores internacionais",
-        "Sessões práticas com PyTorch",
-        "Parceria com MDI IPLeiria",
+        "IA Generativa para a Língua Portuguesa",
+        "Evolução de LLMs",
+        "Painel de Especialistas",
+        'Workshop "LLM Hands-On: Da Teoria à Prática"',
+      ],
+    },
+
+    MdiMSP: {
+      title: "2025 Cycle 1 IEEE SPS Chapter Initiative on Large Language Models",
+      subtitle: "Desmistifica a engenharia por trás do ChatGPT e outros LLMs",
+      date: "28 de maio, 2025",
+      location: "ESTG, IPL",
+      description:
+        "Explora os Large Language Models (LLMs), combinando palestras de especialistas de referência e workshops práticos para compreender a tecnologia por trás de modelos como o ChatGPT e experimentar aplicações reais em geração de texto e inteligência artificial.",
+      highlights: [
+        "IA Generativa para a Língua Portuguesa",
+        "Evolução de LLMs",
+        "Painel de Especialistas",
+        'Workshop "LLM Hands-On: Da Teoria à Prática"',
       ],
     },
 
     dlAutonomous: {
-      title: "DL on Autonomous Driving",
-      subtitle: "Deep Learning para Condução Autónoma",
-      date: "Abril 2025",
+      title: "Distinguished Lecture on Autonomous Driving",
+      subtitle: "Perception Error Modelling for Autonomous Driving",
+      date: "12 de maio, 2025",
       location: "ESTG, IPL",
       description:
-        "O evento focou-se na aplicação de técnicas de deep learning em veículos autónomos. Foram abordados tópicos como deteção de objetos, segmentação semântica e sistemas de decisão inteligentes, através de sessões práticas e apresentações por especialistas na área.",
+        "Vem descobrir mais sobre condução autónoma com o Prof. Justin Dauwels, da TU Delft, Holanda. A palestra aborda os erros de perceção na condução autónoma, explorando o seu impacto no comportamento dos veículos, a modelação em ambientes virtuais e estratégias de integração de sensores para melhorar a segurança e reduzir riscos.",
       highlights: [
-        "Testes com dados reais de condução",
-        "Palestras com engenheiros de visão computacional",
+        "Participação do Leiria Academic Racing Team",
+        "Visão Computacional para Condução Autônoma",
       ],
     },
 
     workshopLatex: {
       title: "Workshop LaTeX",
       description:
-        "Descobre como criar documentos científicos com qualidade profissional! Neste workshop, vais aprender os fundamentos do LaTeX, uma ferramenta essencial para a produção de relatórios, artigos e apresentações com rigor académico e visual impecável. Ideal para estudantes, investigadores e profissionais que querem elevar o nível dos seus trabalhos!",
+        "Este workshop abordou os fundamentos do LaTeX, capacitando os participantes a produzir documentos científicos de forma profissional, com foco em relatórios, artigos e apresentações.",
       type: "Workshop Técnico",
       date: "4 de dezembro, 2024",
       location: "Sala D.S.01.14, ESTG",
@@ -278,7 +294,7 @@ export const translations = {
     pytorchWorkshop: {
       title: "Workshop PyTorch",
       description:
-        "Junta-te a nós para uma sessão prática e envolvente dedicada ao PyTorch, uma das bibliotecas mais populares para machine learning e deep learning! Neste workshop, vais aprender a construir e treinar redes neuronais simples, explorando de forma acessível e interativa os conceitos fundamentais da inteligência artificial. Ideal para quem quer dar os primeiros passos no mundo do deep learning!",
+        "Este workshop foi dedicado à introdução ao PyTorch, uma das bibliotecas mais populares para machine learning e deep learning. Os participantes aprenderam a construir e treinar redes neuronais simples, explorando conceitos fundamentais de inteligência artificial de forma prática.",
       type: "Workshop Técnico",
       date: "18 de dezembro, 2024",
       location: "Sala D.S.01.14, ESTG",
@@ -287,7 +303,7 @@ export const translations = {
     microchipLecture: {
       title: "Aula Aberta: Introdução aos Microcontroladores",
       description:
-        "Vem descobrir o mundo dos microcontroladores e o seu papel essencial nos sistemas embebidos! Nesta aula aberta, vais explorar a estrutura, funcionamento e aplicações práticas destes dispositivos, além de obter uma introdução à programação e controlo de componentes eletrónicos. Uma oportunidade ideal para quem quer compreender como a eletrónica dá vida à tecnologia!",
+        "Nesta aula aberta, os participantes tiveram contacto com os conceitos fundamentais dos microcontroladores, explorando a sua estrutura, funcionamento e aplicações práticas em sistemas embebidos. Foi apresentada uma visão introdutória sobre programação e controlo de dispositivos eletrónicos.",
       type: "Aula Aberta",
       date: "27 de novembro, 2024",
       location: "Auditório 1, ESTG",
@@ -296,13 +312,13 @@ export const translations = {
     eventsConclusion: {
       title: "Continuamos a construir conhecimento, partilhar experiências e inspirar inovação.",
       description:
-        "Estes eventos são apenas uma amostra do compromisso da IEEE IPLeiria em promover a ciência e a tecnologia. Continuamos a criar oportunidades para aprender, crescer e colaborar — e os próximos capítulos estão apenas a começar.",
+        "Estes eventos são apenas uma amostra do compromisso do IEEE IPLeiria em promover a ciência e a tecnologia. Continuamos a criar oportunidades para aprender, crescer e colaborar — e os próximos capítulos estão apenas a começar.",
       button: "Junta-te a nós",
     },
 
     sectionAbout: {
       title: "Quem Somos",
-      description: "Somos uma equipa multidisciplinar que trabalha para promover a IEEE na nossa instituição.",
+      description: "Somos uma equipa multidisciplinar que trabalha para promover o IEEE na nossa instituição.",
       departments: {
         sps: {
           title: "Capítulo SPS",
@@ -338,9 +354,9 @@ export const translations = {
     },
 
     joinUs: {
-      title: "Junta-te à IEEE",
+      title: "Junta-te ao IEEE",
       description:
-        "Descobre como te podes envolver com a IEEE IPLeiria Student Branch e beneficiar de uma rede global de inovação, tecnologia e desenvolvimento profissional.",
+        "Descobre como te podes envolver com o IEEE IPLeiria Student Branch e beneficiar de uma rede global de inovação, tecnologia e desenvolvimento profissional.",
       benefits: {
         title: "Porque te deverias juntar?",
         globalNetwork: "Rede global de estudantes e profissionais",
@@ -353,8 +369,8 @@ export const translations = {
         careerSupport: "Suporte à carreira com recursos e oportunidades de estágio",
       },
       cta: {
-        message: "Queres juntar-te à IEEE, mas tens dúvidas?",
-        subtext: "Fala connosco! Podemos ajudar-te a perceber melhor o que é a IEEE, como funciona e como te podes envolver na nossa comunidade.",
+        message: "Queres juntar-te ao IEEE, mas tens dúvidas?",
+        subtext: "Fala connosco! Podemos ajudar-te a perceber melhor o que é o IEEE, como funciona e como te podes envolver na nossa comunidade.",
         button: "Contacta-nos",
       }
     },
@@ -377,7 +393,7 @@ export const translations = {
       description: "Official IEEE student branch at School of Technology and Management — Leiria.",
       navigation: "Navigation",
       links: {
-        intro: "Intro",
+        intro: "Home",
         departments: "Societies",
         events: "Events",
         about: "About Us",
@@ -400,43 +416,43 @@ export const translations = {
       title: "Welcome to IEEE IPLeiria",
       staticText: "We empower students through",
       rotatingWords: [
-        "Innovation.",
-        "Technology.",
-        "Real-world projects.",
-        "Hands-on workshops.",
-        "Community.",
-        "Personal growth.",
-        "Continuous learning.",
-        "Positive impact."
+        "Innovation",
+        "Technology",
+        "Real-world projects",
+        "Hands-on workshops",
+        "Community",
+        "Personal growth",
+        "Continuous learning",
+        "Positive impact"
       ],
       button: "Join us",
     },
 
     sectionHeroDepartments: {
-      title: "Discover the societies of IEEE IPLeiria",
+      title: "Discover the Technical Departments of IEEE IPLeiria",
       subtitle: "Explore the societies shaping the future of engineering and technology 💡",
-      button: "Explore Societies",
+      button: "Explore Departments",
     },
 
     sectionIEEE: {
       title: 'IEEE: Identity and Commitment to Innovation',
       missionTitle: 'Our Mission:',
-      impactTitle: 'Key Areas of Impact:',
+      impactTitle: 'Main Areas of Impact:',
       paragraph1:
-        'The Institute of Electrical and Electronics Engineers (IEEE) is the world’s largest professional organization dedicated to advancing technology for the benefit of humanity. With over 400,000 members in 160 countries, IEEE leads innovation, knowledge sharing, and professional development.',
+        'The Institute of Electrical and Electronics Engineers (IEEE) is the world’s largest professional organization dedicated to advancing technology for the benefit of humanity. With more than 468,000 members across 160 countries, IEEE stands at the forefront of innovation, professional development, and the sharing of scientific and technical knowledge.',
       paragraph2:
-        'To foster technological innovation, promote professional growth, and contribute to a better tomorrow by connecting engineers, scientists, and professionals from various fields.',
+        'To promote technological innovation, foster professional growth, and contribute to a better future by connecting engineers, scientists, and professionals from diverse fields.',
       paragraph3:
-        'Research and publications, global conferences and technical standards, networking opportunities, and initiatives that support education and community engagement.',
+        'Research and scientific publications, global conferences and technical standards, opportunities for professional networking and skills development, as well as initiatives that support education and community engagement.',
     },
 
     sectionBranches: {
-        title: "Our Student Branch Network",
+        title: "Our Network of Student Branch Chapters",
         paragraph1:
-        "Our Student Branch is part of IEEE’s global network and integrates societies such as the Signal Processing Society (SPS), the Computer Society, and the Power & Energy Society (PES), aiming to bring technical knowledge from these fields into our academic context.",
+        "The IEEE Student Branch at the Polytechnic of Leiria is part of the global IEEE network and includes Student Branch Chapters of the Signal Processing Society (SPS) and the Power & Energy Society (PES). These chapters aim to bring the technical knowledge of their respective fields closer to our academic community.",
         paragraph2:
-        "With a curious and dynamic team, we organize workshops, talks, and networking sessions that promote the development of technical and interpersonal skills. In a collaborative environment, we believe that by helping others grow, we all grow together.",
-        link: "Learn more about Student Branches",
+        "With a curious and dynamic team, we organize workshops, lectures, and networking sessions that foster the development of both technical and interpersonal skills. In a collaborative and inclusive environment, we believe that by helping others grow, we all grow together.",
+        link: "Learn more about our Student Branch Chapters",
     },
 
     sectionEvents: {
@@ -448,13 +464,13 @@ export const translations = {
       title: "The Future Starts Here",
       subtitle: "At IEEE IPLeiria, we give voice to ideas, shape future leaders, and drive purposeful technology. Be part of the movement.",
       join: "Join Now",
-      departments: "Explore Departments",
+      departments: "Explore Societies",
     },
 
     sectionAboutDepartments: {
-      title: "What are the IEEE Societies?",
+      title: "What are the IEEE Departments?",
       description:
-        "The technical societies at IEEE IPLeiria empower students to explore specific areas of engineering and technology. They are spaces for learning, innovation, and collaboration — where you turn curiosity into real-world impact.",
+        "The technical departments at IEEE IPLeiria empower students to explore specific areas of engineering and technology. They are spaces for learning, innovation, and collaboration — where you turn curiosity into real-world impact.",
       workshops: {
         title: "Workshops",
         text:
@@ -481,13 +497,13 @@ export const translations = {
     },
 
     sectionSPS: {
-      title: "Signal Processing Society",
+      title: "SPS Department — Signal Processing Society",
       description:
         "SPS is a technical society of IEEE focused on signal processing — audio, image, video, sensors, and more. It covers key areas such as audio and speech, computer vision, artificial intelligence, and communication networks. At IPLeiria, the chapter organizes events, talks and workshops focused on multimedia, technology and real-world applications.",
       about: {
         title: "About IEEE SPS SBC IPLeiria",
         points: [
-          "Founded on June 6th, 2024, the IEEE SPS Student Branch Chapter of IPLeiria is the first of its kind in Portugal.",
+          "Founded on June 6th, 2024, the IEEE SPS Student Branch Chapter at IPLeiria is the first of its kind in Portugal.",
           "It is a platform for students passionate about signal processing to connect, innovate, and grow academically.",
           "The IEEE SPS Portugal Chapter was founded in January 2024, marking a milestone for the national Signal Processing community.",
         ],
@@ -550,7 +566,7 @@ export const translations = {
     },
 
     sectionPES: {
-      title: "Power & Energy Society",
+      title: "PES Department — Power & Energy Society",
       description:
         "IEEE PES is dedicated to electric power and sustainable energy. The IPLeiria chapter promotes training and discussion on renewable energy, smart grids, electric mobility and energy efficiency.",
 
@@ -586,9 +602,9 @@ export const translations = {
     },
 
     sectionConclusionDepartments: {
-      title: "Several Societies, One Mission",
+      title: "Several Departments, One Mission",
       description:
-        "Together, SPS and PES form the foundation of our impact. From AI to renewable energy, IEEE IPLeiria is turning ideas into action.",
+        "Together, SPS, CS, and PES form the foundation of our impact. From AI to renewable energy, IEEE IPLeiria is turning ideas into action.",
       exploreEvents: "Explore Events",
       join: "Join IEEE",
     },
@@ -601,16 +617,32 @@ export const translations = {
     },
 
     mdiLlms: {
-      title: "MDI LLMS",
-      subtitle: "Machine Learning for Multimedia Systems",
-      date: "March 2025",
+      title: "2025 Cycle 1 IEEE SPS Chapter Initiative on Large Language Models",
+      subtitle: "Demystifying the engineering behind ChatGPT and other LLMs",
+      date: "28th of May, 2025",
       location: "ESTG, IPL",
       description:
-        "MDI LLMS brought together students and experts to explore modern machine learning solutions applied to multimedia systems. The event included hands-on sessions, research talks, and technical networking opportunities.",
+        "Explore Large Language Models (LLMs) through expert lectures and hands-on workshops to understand the technology behind models like ChatGPT and experiment with real-world applications in text generation and artificial intelligence.",
       highlights: [
-        "International speakers",
-        "Hands-on sessions with PyTorch",
-        "Partnership with MDI IPLeiria",
+        "Generative AI for Portuguese Language",
+        "Evolution of LLMs",
+        "Panel of Experts",
+        'Workshop "LLM Hands-On: From Theory to Practice"',
+      ],
+    },
+
+    MdiMSP: {
+      title: "2025 Cycle 1 IEEE SPS Chapter Initiative on Large Language Models",
+      subtitle: "Desmistifica a engenharia por trás do ChatGPT e outros LLMs",
+      date: "28 de maio, 2025",
+      location: "ESTG, IPL",
+      description:
+        "Explora os Large Language Models (LLMs), combinando palestras de especialistas de referência e workshops práticos para compreender a tecnologia por trás de modelos como o ChatGPT e experimentar aplicações reais em geração de texto e inteligência artificial.",
+      highlights: [
+        "IA Generativa para a Língua Portuguesa",
+        "Evolução de LLMs",
+        "Painel de Especialistas",
+        'Workshop "LLM Hands-On: Da Teoria à Prática"',
       ],
     },
 
@@ -630,7 +662,7 @@ export const translations = {
     workshopLatex: {
       title: "LaTeX Workshop",
       description:
-        "Learn how to create professional-quality scientific documents! In this workshop, you’ll explore the fundamentals of LaTeX, a powerful tool for producing reports, research papers, and presentations with academic precision and a polished look. Perfect for students, researchers, and professionals who want to take their documents to the next level!",
+        "This workshop covered the fundamentals of LaTeX, enabling participants to produce scientific documents professionally, with a focus on reports, articles, and presentations.",
       type: "Technical Workshop",
       date: "December 4th, 2024",
       location: "Room D.S.01.14, ESTG",
@@ -639,7 +671,7 @@ export const translations = {
     pytorchWorkshop: {
       title: "PyTorch Workshop",
       description:
-        "Join us for a hands-on and engaging session dedicated to PyTorch, one of the most popular libraries for machine learning and deep learning! In this workshop, you’ll learn how to build and train simple neural networks, while exploring the core concepts of artificial intelligence in a practical and interactive way. Perfect for anyone looking to take their first steps into the world of deep learning!",
+        "This workshop was dedicated to introducing PyTorch, one of the most popular libraries for machine learning and deep learning. Participants learned how to build and train simple neural networks, exploring core artificial intelligence concepts through hands-on practice.",
       type: "Technical Workshop",
       date: "December 18th, 2024",
       location: "Room D.S.01.14, ESTG",
@@ -648,7 +680,7 @@ export const translations = {
     microchipLecture: {
       title: "Open Lecture: Introduction to Microcontrollers",
       description:
-        "Discover the world of microcontrollers and their key role in embedded systems! In this open class, you’ll explore the structure, operation, and practical applications of these devices, while gaining an introductory understanding of programming and electronic device control. A perfect opportunity to learn how electronics bring technology to life!",
+        "In this open lecture, participants were introduced to the fundamental concepts of microcontrollers, exploring their structure, functionality, and practical applications in embedded systems. An introductory overview was presented on programming and controlling electronic devices.",
       type: "Open Lecture",
       date: "November 27th, 2024",
       location: "Auditorium 1, ESTG",
