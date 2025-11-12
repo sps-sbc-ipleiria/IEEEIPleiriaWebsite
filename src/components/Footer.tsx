@@ -84,7 +84,7 @@ export default function Footer() {
           <h5 className="text-lg font-semibold mb-2 text-white">{t.contacts}</h5>
           <p className="text-sm mb-2 text-blue-100">{t.email}</p>
           <p className="text-sm mb-4 text-blue-100">{t.location}</p>
-          <div className="flex gap-4 text-2xl justify-center md:justify-start">
+          {/* <div className="flex gap-4 text-2xl justify-center md:justify-start">
             <motion.a
               whileHover={{ scale: 1.2, color: "#7ecbff" }}
               href="https://instagram.com" target="_blank" className="hover:text-[#7ecbff] transition-colors"
@@ -97,7 +97,7 @@ export default function Footer() {
               whileHover={{ scale: 1.2, color: "#7ecbff" }}
               href="https://youtube.com" target="_blank" className="hover:text-[#7ecbff] transition-colors"
             ><FaYoutube /></motion.a>
-          </div>
+          </div> */}
         </motion.div>
       </div>
 

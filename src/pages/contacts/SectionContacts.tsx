@@ -38,20 +38,20 @@ function SectionContacts() {
             transition={{ delay: 0.2, duration: 0.6 }}
           >
             <ul className="space-y-4 text-base">
-              <li className="flex items-center gap-3">
+              {/* <li className="flex items-center gap-3">
                 <FaPhoneAlt className="text-[#2579B9]" /> <span>+351 912 345 678</span>
-              </li>
+              </li> */}
               <li className="flex items-center gap-3">
                 <FaEnvelope className="text-[#2579B9]" /> <span>ieee@ipleiria.pt</span>
               </li>
-              <li className="flex items-center gap-3">
+              {/* <li className="flex items-center gap-3">
                 <FaInstagram className="text-[#2579B9]" />
                 <a href="https://instagram.com/ieeeipleiria" target="_blank" className="hover:underline">@ieeeipleiria</a>
               </li>
               <li className="flex items-center gap-3">
                 <FaFacebook className="text-[#2579B9]" />
                 <a href="https://facebook.com/ieeeipleiria" target="_blank" className="hover:underline">IEEE IPLeiria</a>
-              </li>
+              </li> */}
               <li className="flex items-center gap-3">
                 <FaMapMarkerAlt className="text-[#2579B9]" /> <span>ESTG, IPLeiria - Campus 2, Leiria</span>
               </li>

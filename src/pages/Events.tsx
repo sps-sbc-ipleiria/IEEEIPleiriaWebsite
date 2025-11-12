@@ -10,7 +10,7 @@ import SectionConclusionEvents from './events/SectionConclusionEvents';
 function Events() {
   return (
       <>
-        {/* <SectionEventsIntro /> */}
+        <SectionEventsIntro />
         <MdiLLMS />
         <DlAutonomous />
         <MDImsp />

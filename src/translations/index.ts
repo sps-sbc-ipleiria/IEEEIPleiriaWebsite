@@ -255,17 +255,18 @@ export const translations = {
     },
 
     MdiMSP: {
-      title: "2025 Cycle 1 IEEE SPS Chapter Initiative on Large Language Models",
-      subtitle: "Desmistifica a engenharia por trás do ChatGPT e outros LLMs",
-      date: "28 de maio, 2025",
+      title: "2024 Cycle 2 IEEE SPS Chapter Initiative on Multimedia Signal Processing",
+      subtitle: "Explora o Passado, Presente e Futuro do Processamento de Sinais Multimédia",
+      date: "23 de outubro, 2024",
       location: "ESTG, IPL",
       description:
-        "Explora os Large Language Models (LLMs), combinando palestras de especialistas de referência e workshops práticos para compreender a tecnologia por trás de modelos como o ChatGPT e experimentar aplicações reais em geração de texto e inteligência artificial.",
+        "Conecta-te com estudantes, investigadores e professores nacionais e internacionais de várias universidades num evento único que explora os avanços no processamento de sinais de imagem, vídeo e 3D através de palestras, posters e oportunidades de networking em Leiria.",
       highlights: [
-        "IA Generativa para a Língua Portuguesa",
-        "Evolução de LLMs",
-        "Painel de Especialistas",
-        'Workshop "LLM Hands-On: Da Teoria à Prática"',
+        "Normas de Imagem e Vídeo",
+        "Deep Learning para Processamento de Sinais",
+        "Point Clouds",
+        'Light Fields',
+        'Imagiologia Médica'
       ],
     },
 
@@ -632,30 +633,31 @@ export const translations = {
     },
 
     MdiMSP: {
-      title: "2025 Cycle 1 IEEE SPS Chapter Initiative on Large Language Models",
-      subtitle: "Desmistifica a engenharia por trás do ChatGPT e outros LLMs",
-      date: "28 de maio, 2025",
+      title: "2024 Cycle 2 IEEE SPS Chapter Initiative on Multimedia Signal Processing",
+      subtitle: "Explore the Past, Present, and Future of Multimedia Signal Processing",
+      date: "23rd of October, 2024",
       location: "ESTG, IPL",
       description:
-        "Explora os Large Language Models (LLMs), combinando palestras de especialistas de referência e workshops práticos para compreender a tecnologia por trás de modelos como o ChatGPT e experimentar aplicações reais em geração de texto e inteligência artificial.",
+        "Connect with national and international students, researchers, and professores from multiple universities in an unique event that explores the advances in image, video, and 3D signal processing through talks, posters, and networking opportunities in Leiria.",
       highlights: [
-        "IA Generativa para a Língua Portuguesa",
-        "Evolução de LLMs",
-        "Painel de Especialistas",
-        'Workshop "LLM Hands-On: Da Teoria à Prática"',
+        "Image and Video Standardization",
+        "Deep Learning for Signal Processing",
+        "Point Clouds",
+        'Light Fields',
+        'Medical Imaging'
       ],
     },
 
     dlAutonomous: {
-      title: "DL on Autonomous Driving",
-      subtitle: "Deep Learning for Autonomous Vehicles",
-      date: "April 2025",
+      title: "Distinguished Lecture on Autonomous Driving",
+      subtitle: "Perception Error Modelling for Autonomous Driving",
+      date: "12th of May, 2025",
       location: "ESTG, IPL",
       description:
-        "This event focused on the application of deep learning techniques to autonomous vehicles. Topics included object detection, semantic segmentation, and intelligent decision systems, explored through hands-on sessions and talks from industry experts.",
+        "Come discover more about autonomous driving with Prof. Justin Dauwels from TU Delft, Netherlands. The lecture covers perception errors in autonomous driving, exploring their impact on vehicle behavior, modeling in virtual environments, and sensor integration strategies to improve safety and reduce risks.",
       highlights: [
-        "Testing with real driving data",
-        "Talks by computer vision engineers",
+        "Participation of the Leiria Academic Racing Team",
+        "Computer Vision for Autonomous Driving",
       ],
     },
 
