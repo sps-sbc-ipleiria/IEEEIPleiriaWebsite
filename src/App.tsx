@@ -6,7 +6,7 @@ import NotFound from './pages/NotFound';
 import Home from './pages/Home';
 import Departments from './pages/Departments';
 import Events from './pages/Events';
-import About from './pages/About';
+// import About from './pages/About';
 import Contacts from './pages/Contacts';
 import JoinUs from './pages/JoinUs';
 
@@ -25,7 +25,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/departments" element={<Departments />} />
             <Route path="/events" element={<Events />} />
-            <Route path="/about" element={<About />} />
+            {/* <Route path="/about" element={<About />} /> */}
             <Route path="/contacts" element={<Contacts />} />
             <Route path="/join" element={<JoinUs />} />
             

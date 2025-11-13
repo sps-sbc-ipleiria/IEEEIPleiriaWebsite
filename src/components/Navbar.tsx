@@ -17,7 +17,7 @@ function Navbar() {
     { to: '/', label: t.home },
     { to: '/departments', label: t.departments },
     { to: '/events', label: t.events },
-    { to: '/about', label: t.about },
+    // { to: '/about', label: t.about },
     { to: '/contacts', label: t.contacts },
   ];
 
