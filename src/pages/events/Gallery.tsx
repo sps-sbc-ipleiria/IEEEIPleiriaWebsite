@@ -8,7 +8,7 @@ interface GalleryProps {
 
 const Gallery = React.memo(({ images, onSelect }: GalleryProps) => (
   <motion.div
-    className="flex gap-3 sm:gap-4 mt-8 sm:mt-12 px-4 w-full max-w-4xl overflow-x-auto scrollbar-thin scrollbar-thumb-blue-200 transform-gpu"
+    className="flex items-center gap-3 sm:gap-4 mt-8 sm:mt-12 px-4 w-full max-w-4xl overflow-x-auto scrollbar-thin scrollbar-thumb-blue-200 transform-gpu h-45"
     initial={{ opacity: 0, y: 30 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.6 }}
@@ -20,7 +20,7 @@ const Gallery = React.memo(({ images, onSelect }: GalleryProps) => (
         src={src}
         alt="imagem"
         className="rounded-xl shadow-md w-40 h-28 sm:w-56 sm:h-36 object-cover flex-shrink-0 hover:scale-105 transition-transform duration-300"
-        whileHover={{ scale: 1.07 }}
+        whileHover={{ scale: 1.02 }}
         onClick={() => onSelect(src)}
       />
     ))}

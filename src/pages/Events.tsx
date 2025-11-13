@@ -11,7 +11,9 @@ function Events() {
   return (
       <>
         <SectionEventsIntro />
-        <MdiLLMS />
+        <div id="eventos-ano">
+          <MdiLLMS/>
+        </div>
         <DlAutonomous />
         <MDImsp />
         <WorkshopPytorch />

@@ -60,11 +60,11 @@ export default function Footer() {
                             {t.links.contacts}
                         </a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a href="/about" className="hover:text-[#7ecbff] transition-colors duration-200">
                             {t.links.about}
                         </a>
-                    </li>
+                    </li> */}
                     <li>
                         <a href="/join" className="hover:text-[#7ecbff] transition-colors duration-200">
                             {t.links.join}

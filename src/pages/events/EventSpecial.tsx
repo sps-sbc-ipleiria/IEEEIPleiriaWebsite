@@ -17,14 +17,14 @@ interface EventoEspecialProps {
   highlights: string[];
 }
 
-// const highlightVariants = {
-//   hidden: { opacity: 0, y: 30 },
-//   visible: (i: number) => ({
-//     opacity: 1,
-//     y: 0,
-//     transition: { delay: 0.4 + i * 0.15, duration: 0.7 },
-//   }),
-// };
+const highlightVariants = {
+   hidden: { opacity: 0, y: 30 },
+   visible: (i: number) => ({
+     opacity: 1,
+     y: 0,
+     transition: { delay: 0.4 + i * 0.15, duration: 0.7 },
+   }),
+ };
 
 export default function EventoEspecial({
   title,
@@ -75,19 +75,22 @@ export default function EventoEspecial({
 
   return (
     <div className="min-h-screen  flex flex-col items-center">
+      {/* Hero Image */}
       {images[0] && (
       <motion.div
-        className="w-full h-56 sm:h-72 md:h-96 relative cursor-pointer"
-        initial={{ opacity: 0, scale: 0.98 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 1 }}
-        onClick={() => setSelectedImage(images[0])} // abre o modal como as outras
+        className="w-full h-56 sm:h-72 md:h-96 relative cursor-pointer overflow-hidden"
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.9, ease: "easeOut" }}
+        viewport={{ once: true, amount: 0.3 }}
+        onClick={() => setSelectedImage(images[0])}
       >
         <img
           src={images[0]}
-          alt="Evento destaque"
+          alt="Hero image"
           className="w-full h-full object-cover object-center"
         />
+
         <div className="absolute inset-0 bg-gradient-to-t from-[#00275cbb] to-transparent" />
       </motion.div>
     )}
@@ -95,27 +98,48 @@ export default function EventoEspecial({
       {/* Card */}
       <motion.div
         className="relative -mt-16 sm:-mt-24 md:-mt-32 z-10 w-full max-w-2xl mx-auto px-4"
-        initial={{ opacity: 0, y: 40 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+        viewport={{ once: true, amount: 0.3 }}
       >
-        <div className="backdrop-blur-xl bg-white/70 rounded-2xl shadow-2xl p-6 sm:p-10 space-y-4 sm:space-y-6">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#00275c] tracking-tight">
+        <div className="bg-white/70 backdrop-blur-md rounded-2xl shadow-2xl p-6 sm:p-10 space-y-4 sm:space-y-6">
+          <motion.h2
+            className="text-3xl sm:text-4xl font-extrabold text-[#00275c] tracking-tight"
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.2, duration: 0.6 }}
+          >
             {title}
-          </h2>
+          </motion.h2>
           {subtitle && (
-            <p className="text-lg sm:text-xl text-blue-500 font-medium">
+            <motion.p
+              className="text-lg sm:text-xl text-blue-500 font-medium"
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.4, duration: 0.6 }}
+            >
               {subtitle}
-            </p>
+            </motion.p>
           )}
-          <div className="flex flex-wrap gap-2 sm:gap-4 items-center text-blue-900 font-semibold text-base sm:text-lg mt-2">
+          <motion.div
+            className="flex flex-wrap gap-2 sm:gap-4 items-center text-blue-900 font-semibold text-base sm:text-lg mt-2"
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.6, duration: 0.6 }}
+          >
             <span>📅 {date}</span>
             <span className="hidden sm:inline">|</span>
             <span>📍 {location}</span>
-          </div>
-          <p className="mt-2 sm:mt-4 text-gray-700 text-base sm:text-lg leading-relaxed text-justify">
+          </motion.div>
+          <motion.p
+            className="mt-2 sm:mt-4 text-gray-700 text-base sm:text-lg leading-relaxed text-justify"
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.8, duration: 0.6 }}
+          >
             {description}
-          </p>
+          </motion.p>
         </div>
       </motion.div>
 
@@ -137,18 +161,25 @@ export default function EventoEspecial({
         )}
 
       {/* Highlights */}
-      <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mt-10 sm:mt-14 px-4 max-w-2xl w-full">
+      <motion.ul
+        className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mt-10 sm:mt-14 px-4 max-w-2xl w-full"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ amount: 0.3 }}
+      >
         {highlights.map((item, idx) => (
-          <li
+          <motion.li
             key={idx}
             className="bg-white/80 rounded-xl shadow p-4 sm:p-5 text-[#00275c] font-semibold text-base sm:text-lg flex items-center gap-3 hover:bg-blue-50 transition"
+            custom={idx}
+            variants={highlightVariants}
           >
             <span className="text-blue-400 text-xl sm:text-2xl">★</span>
             {item}
-          </li>
+          </motion.li>
         ))}
-      </ul>
-      <div className="h-10" />
+      </motion.ul>
+      <div className="h-17" />
     </div>
   );
 }
