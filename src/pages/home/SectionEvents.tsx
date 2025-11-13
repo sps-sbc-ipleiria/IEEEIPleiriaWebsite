@@ -32,7 +32,7 @@ export default function SectionEvents() {
           {t.title}
         </motion.h2>
 
-        {/* Imagens dos eventos */}
+        {/* Imagens dos eventos
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {images.map((img, i) => (
             <motion.img
@@ -45,7 +45,7 @@ export default function SectionEvents() {
               transition={{ delay: 0.2 * i, duration: 0.6 }}
             />
           ))}
-        </div>
+        </div> */}
 
         {/* Segunda grelha (com potencial badge “anual”) */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
