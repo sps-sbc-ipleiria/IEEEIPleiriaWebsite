@@ -20,7 +20,7 @@ function About() {
     { image: "/assets/cards/sps/Rúben.jpg", name: "Rúben Francisco", roleKey: "treasurer" },
     { image: "/assets/cards/sps/Marco.jpg", name: "Marco Rebelo", roleKey: "webmaster" },
     { image: "/assets/cards/sps/Barbara.jpg", name: "Barbara Coutinho", roleKey: "member" },
-    { image: "/assets/cards/sps/Valentina.jpg", name: "Valentina", roleKey: "member" },
+    { image: "/assets/cards/sps/Valentina.jpg", name: "Valentina Sanchez", roleKey: "member" },
     // { image: "/assets/cards/sps/asd.jpg", name: "Pessoal a add3", roleKey: "member" },
   ] as const;
 

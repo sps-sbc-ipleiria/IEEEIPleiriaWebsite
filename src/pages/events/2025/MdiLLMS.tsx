@@ -16,10 +16,12 @@ export default function MdiLlms() {
       description={t.description}
       highlights={t.highlights}
       images={[
-        "/events/2025/mdi1.jpg",
-        "/events/2025/mdi2.jpg",
-        "/events/2025/mdi3.jpg",
-        "/events/2025/mdi4.jpg",
+        "/events/2025/MDIllm/capa.jpeg",
+        "/events/2025/MDIllm/mdi1.jpeg",
+        "/events/2025/MDIllm/mdi2.jpeg",
+        "/events/2025/MDIllm/mdi3.jpeg",
+        "/events/2025/MDIllm/mdi4.jpeg",
+        "/events/2025/MDIllm/mdi5.jpeg",
       ]}
     />
   );

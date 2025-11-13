@@ -1,4 +1,4 @@
-import { FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
+// import { FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { useLanguage } from '../contexts/LanguageContext';
 import { translations } from '../translations';

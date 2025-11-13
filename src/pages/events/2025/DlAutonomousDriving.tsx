@@ -16,12 +16,16 @@ export default function DlAutonomousDriving() {
       description={t.description}
       highlights={t.highlights}
       images={[
-        "/events/2025/DlAutonomous/dl1.jpg",
+        "/events/2025/DlAutonomous/capa.jpg",
         "/events/2025/DlAutonomous/dl2.jpg",
         "/events/2025/DlAutonomous/dl3.jpg",
         "/events/2025/DlAutonomous/dl4.jpg",
         "/events/2025/DlAutonomous/dl5.jpg",
         "/events/2025/DlAutonomous/dl6.jpg",
+        "/events/2025/DlAutonomous/dl7.jpg",
+        "/events/2025/DlAutonomous/dl8.jpg",
+        "/events/2025/DlAutonomous/dl9.jpg",
+        "/events/2025/DlAutonomous/dl10.jpg",
       ]}
     />
   );
