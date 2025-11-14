@@ -180,8 +180,8 @@ const Threads: React.FC<ThreadsProps> = ({
     function resize() {
       const { clientWidth, clientHeight } = container;
       
-      const renderWidth = Math.floor(clientWidth / 3);
-      const renderHeight = Math.floor(clientHeight / 3);
+      const renderWidth = Math.floor(clientWidth / 4);
+      const renderHeight = Math.floor(clientHeight / 4);
 
       renderer.setSize(renderWidth, renderHeight);
 
