@@ -27,7 +27,7 @@ export default function EventBlock({
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
       viewport={{ once: true }}
-      className={`max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 px-4 py-10
+      className={`max-w-5xl overflow-x-hidden mx-auto flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 px-4 py-10
         ${reverse ? "md:flex-row-reverse" : ""}`}
     >
       {/* Animated Image */}

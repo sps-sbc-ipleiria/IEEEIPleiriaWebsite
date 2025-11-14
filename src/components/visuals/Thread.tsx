@@ -169,12 +169,29 @@ const Threads: React.FC<ThreadsProps> = ({
 
     const mesh = new Mesh(gl, { geometry, program });
 
+    // function resize() {
+    //   const { clientWidth, clientHeight } = container;
+    //   renderer.setSize(clientWidth, clientHeight);
+    //   program.uniforms.iResolution.value.r = clientWidth;
+    //   program.uniforms.iResolution.value.g = clientHeight;
+    //   program.uniforms.iResolution.value.b = clientWidth / clientHeight;
+    // }
+
     function resize() {
       const { clientWidth, clientHeight } = container;
-      renderer.setSize(clientWidth, clientHeight);
-      program.uniforms.iResolution.value.r = clientWidth;
-      program.uniforms.iResolution.value.g = clientHeight;
-      program.uniforms.iResolution.value.b = clientWidth / clientHeight;
+      
+      const renderWidth = Math.floor(clientWidth / 3);
+      const renderHeight = Math.floor(clientHeight / 3);
+
+      renderer.setSize(renderWidth, renderHeight);
+
+      gl.canvas.style.width = `${clientWidth}px`;
+      gl.canvas.style.height = `${clientHeight}px`;
+      gl.canvas.style.filter = "blur(3px)"; 
+
+      program.uniforms.iResolution.value.r = renderWidth;
+      program.uniforms.iResolution.value.g = renderHeight;
+      program.uniforms.iResolution.value.b = renderWidth / renderHeight;
     }
     window.addEventListener("resize", resize);
     resize();
