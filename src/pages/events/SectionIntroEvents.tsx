@@ -1,7 +1,7 @@
 import { useLanguage } from "../../contexts/LanguageContext";
 import { translations } from "../../translations";
 import { motion } from "framer-motion";
-// import Threads from "../../components/visuals/Thread";
+import Threads from "../../components/visuals/Thread";
 
 export default function SectionEventsIntro() {
   const { lang } = useLanguage();
@@ -10,38 +10,38 @@ export default function SectionEventsIntro() {
   return (
     <section className="relative w-full min-h-screen text-blue-900 flex items-center justify-center px-6">
       {/* Threads Background */}
-      {/* <div className="bg-blue-100 absolute inset-0 z-1"> 
+      <div className="bg-white-100 absolute inset-0 z-1"> 
         <Threads
           amplitude={1.5}
           distance={0.5}
-          enableMouseInteraction={false}
+          enableMouseInteraction={true}
           color={[0.0, 0.39, 0.92]}
         /> 
-      </div> */}
+      </div>
 
 
-      <div className="absolute inset-0 z-1 overflow-hidden">
+      {/* <div className="absolute inset-0 z-1 overflow-hidden"> */}
 
       {/* FUNDO LINEAR UNIFORME IEEE */}
-        <div
+        {/* <div
           className="absolute inset-0"
           style={{
             background: "linear-gradient(180deg, #BCDAF7 0%, #BCDAF7 100%)",
           }}
-        />
+        /> */}
 
         {/* VINHETA PARA DAR PROFUNDIDADE */}
-        <div
+        {/* <div
           className="absolute inset-0"
           style={{
             background:
               "radial-gradient(circle at center, rgba(255,255,255,0.25), rgba(0,0,0,0.15) 75%)",
             mixBlendMode: "soft-light",
           }}
-        />
+        /> */}
 
         {/* GRID IEEE VISÍVEL E LIMPO */}
-        <div
+        {/* <div
           className="absolute inset-0 opacity-[0.28]"
           style={{
             backgroundImage: `
@@ -50,10 +50,10 @@ export default function SectionEventsIntro() {
             `,
             backgroundSize: "60px 60px",
           }}
-        />
+        /> */}
 
         {/* LUZ CENTRAL MAIS NÍTIDA */}
-        <div
+        {/* <div
           className="absolute top-[25%] left-1/2 w-[100%] h-[60%] -translate-x-1/2"
           style={{
             background:
@@ -63,7 +63,7 @@ export default function SectionEventsIntro() {
           }}
         />
 
-      </div>
+      </div> */}
 
 
 
