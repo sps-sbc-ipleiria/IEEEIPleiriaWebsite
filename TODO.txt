@@ -1,7 +1,3 @@
-Adaptar Index.html -> icon
-Fotos MDI LLMS
-Ver topicos e textos dos eventos (fora restantes)
-
 VER DATAS EVENTOS -
 Atualizar links no Contactos pagina e footer
 

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 import { Link } from 'react-router-dom';
 
-import IEEEComputer from '../../assets/branches/CS.svg';
+// import IEEEComputer from '../../assets/branches/CS.svg';
 import IEEESignal from '../../assets/branches/SPS.svg';
 import IEEEPES from '../../assets/branches/PES.svg';
 
