@@ -28,7 +28,7 @@ function Navbar() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5, ease: 'easeOut' }}
     >
-      <div className="container mx-auto px-4 flex items-center justify-between gap-x-4 h-20">
+      <div className="container mx-auto px-4 grid grid-cols-2 md:grid-cols-3 items-center h-20">
         {/* Logo + texto */}
         <motion.a
           href="/"
@@ -36,12 +36,12 @@ function Navbar() {
           whileHover={{ scale: 1.07 }}
           transition={{ type: 'spring', stiffness: 300, damping: 18 }}
         >
-          <img src={IEEEPolitecnico} alt="Logo IEEE" className="h-10 w-auto" />
+          <img src={IEEEPolitecnico} alt="Logo IEEE" className="w-auto h-9 md:h-10 max-w-100"/>
         </motion.a>
 
         {/* Botão de menu mobile (hambúrguer) */}
         <button
-          className="md:hidden focus:outline-none"
+          className="flex justify-end md:hidden focus:outline-none"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
           <svg
@@ -61,7 +61,7 @@ function Navbar() {
         </button>
 
         {/* Menu desktop */}
-        <ul className="hidden md:flex space-x-6 font-medium h-full items-center">
+        <ul className="hidden md:flex space-x-6 font-medium h-full items-center justify-center ">
           {navLinks.map((link) => (
             <li key={link.to} className="h-full flex items-center">
               <Link
@@ -76,7 +76,7 @@ function Navbar() {
         </ul>
 
         {/* Botões Join Us e seleção de idioma */}
-        <div className="hidden md:flex items-center">
+        <div className="hidden md:flex items-center justify-end">
           {/* Botão Join Us (desktop) */}
           <motion.a
             href="/join"
