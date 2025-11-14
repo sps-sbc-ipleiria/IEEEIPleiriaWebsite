@@ -78,7 +78,7 @@ export default function EventoEspecial({
       {/* Hero Image */}
       {images[0] && (
       <motion.div
-        className="w-full h-56 sm:h-72 md:h-96 relative cursor-pointer overflow-hidden"
+        className="w-full h-56 sm:h-72 md:h-130 relative cursor-pointer overflow-hidden"
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.9, ease: "easeOut" }}

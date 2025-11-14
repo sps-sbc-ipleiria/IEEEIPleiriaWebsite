@@ -42,7 +42,7 @@ function SectionContacts() {
                 <FaPhoneAlt className="text-[#2579B9]" /> <span>+351 912 345 678</span>
               </li> */}
               <li className="flex items-center gap-3">
-                <FaEnvelope className="text-[#2579B9]" /> <span>ieee@ipleiria.pt</span>
+                <FaEnvelope className="text-[#2579B9]" /> <span>sb.ipleiria@ieee.org</span>
               </li>
               {/* <li className="flex items-center gap-3">
                 <FaInstagram className="text-[#2579B9]" />

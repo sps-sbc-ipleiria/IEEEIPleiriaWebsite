@@ -23,7 +23,7 @@ export const translations = {
         join: "Junta-te a Nós"
       },
       contacts: "Contactos",
-      email: "📧 ieee@ipleiria.pt",
+      email: "📧 sb.ipleiria@ieee.org",
       location: "📍 Leiria, Portugal",
       copyright: "© 2025 IEEE IPLeiria Student Branch. Todos os direitos reservados."
     },
@@ -266,6 +266,7 @@ export const translations = {
         "Deep Learning para Processamento de Sinais",
         "Point Clouds",
         'Light Fields',
+        'Modelos de Representação 3D',
         'Imagiologia Médica'
       ],
     },
@@ -402,7 +403,7 @@ export const translations = {
         join: "Join Us"
       },
       contacts: "Contacts",
-      email: "📧 ieee@ipleiria.pt",
+      email: "📧 sb.ipleiria@ieee.org",
       location: "📍 Leiria, Portugal",
       copyright: "© 2025 IEEE IPLeiria Student Branch. All rights reserved."
     },
@@ -644,6 +645,7 @@ export const translations = {
         "Deep Learning for Signal Processing",
         "Point Clouds",
         'Light Fields',
+        '3D Representation Models',
         'Medical Imaging'
       ],
     },

@@ -16,7 +16,7 @@ export default function MdiMSP() {
       description={t.description}
       highlights={t.highlights}
       images={[
-        "/events/2024/mdimsp/capa.jpeg",
+        "/events/2024/mdimsp/capa1.png",
         "/events/2024/mdimsp/1.jpg",
         "/events/2024/mdimsp/2.jpg",
         "/events/2024/mdimsp/3.jpg",
