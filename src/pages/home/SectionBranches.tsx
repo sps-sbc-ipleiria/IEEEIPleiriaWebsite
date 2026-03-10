@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 // import IEEEComputer from '../../assets/branches/CS.svg';
 import IEEESignal from '../../assets/branches/SPS.svg';
 import IEEEPES from '../../assets/branches/PES.svg';
+import IEEEAPS from '../../assets/branches/APS.jpeg';
 
 
 export default function SectionBranches() {
@@ -56,7 +57,7 @@ export default function SectionBranches() {
 
         {/* Logos das sociedades */}
         <motion.div
-          className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-10 w-full items-center justify-items-center"
+          className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-10 w-full items-center justify-items-center"
           initial={{ opacity: 0, scale: 0.96 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.4, duration: 0.6 }}
@@ -76,6 +77,12 @@ export default function SectionBranches() {
           <motion.img
             src={IEEEPES}
             alt="Power & Energy Society"
+            className="h-20 sm:h-28 md:h-32 object-contain rounded-xl shadow-md bg-white p-2 hover:scale-105 transition-transform duration-300"
+            whileHover={{ scale: 1.08, boxShadow: '0 4px 24px #2579B933' }}
+          />
+          <motion.img
+            src={IEEEAPS}
+            alt="Antennas and Propagation Society"
             className="h-20 sm:h-28 md:h-32 object-contain rounded-xl shadow-md bg-white p-2 hover:scale-105 transition-transform duration-300"
             whileHover={{ scale: 1.08, boxShadow: '0 4px 24px #2579B933' }}
           />

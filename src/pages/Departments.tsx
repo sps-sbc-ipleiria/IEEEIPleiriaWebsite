@@ -3,6 +3,7 @@ import SectionAboutDepartments from "../pages/departments/SectionAboutDepartment
 import SectionQuoteIEEE from "./departments/SectionQuote";
 import SectionSPS from "./departments/SectionSPS";
 // import SectionCS from "./departments/SectionCS";
+import SectionAPS from "./departments/SectionAPS";
 import SectionPES from "./departments/SectionPES";
 import SectionConclusionDepartments from "./departments/SectionConclusionDepartments";
 
@@ -17,6 +18,7 @@ function Departments() {
           <SectionSPS />
           {/* <SectionCS /> */}
           <SectionPES />
+          <SectionAPS />
         </div>
         <SectionConclusionDepartments />
       </>

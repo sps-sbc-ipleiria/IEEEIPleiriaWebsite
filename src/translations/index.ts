@@ -188,6 +188,41 @@ export const translations = {
       seeEvents: "Vê os nossos eventos e participa!",
     },
 
+    sectionAPS: {
+      title: "Antennas and Propagation Society",
+      description:
+        "A AP-S é uma sociedade do IEEE dedicada ao estudo de antenas, propagação de ondas eletromagnéticas e a sua interação com diferentes meios. No capítulo do IPLeiria, focamos na exploração de tecnologias de comunicação sem ﬁos, sistemas de radar e o futuro das redes móveis (5G/6G).",
+
+      about: {
+        title: "Sobre o IEEE APS SBC IPLeiria",
+        points: [
+          "Criado a 09/12/2025, o IEEE AP-S Student Branch Chapter do IPLeiria é um espaço de inovação para estudantes interessados em radiofrequência e comunicações.",
+          "O nosso objetivo é colmatar a lacuna entre a teoria eletromagnética e as aplicações práticas no mundo real, desde pequenos sensores IoT até comunicações por satélite.",
+        ],
+      },
+
+      activities: [
+        {
+          title: "Workshops de Design de Antenas",
+          text: "Aprende a projetar, simular e construir as tuas próprias antenas utilizando ferramentas industriais e técnicas de fabricação rápida.",
+        },
+        {
+          title: "Palestras com Especialistas (Invited Talks)",
+          text: "Sessões com investigadores do IT (Instituto de Telecomunicações) e proﬁssionais de empresas como a Altice Labs sobre o futuro das comunicações.",
+        },
+        {
+          title: "Visitas Técnicas de Campo",
+          text: "Convidamos especialistas para partilhar conhecimentos em áreas como sistemas distribuídos, segurança informática e machine learning.",
+        },
+        {
+          title: "Projetos de Investigação Aplicada",
+          text: "Envolve-te em projetos reais ligados a sistemas radiantes, medição de sinal e tecnologias de ponta em parceria com o centro de investigação local.",
+        },
+      ],
+
+      seeEvents: "Vê os nossos eventos e participa!",
+    },
+
     sectionPES: {
       title: "Power & Energy Society",
       description:
@@ -564,6 +599,41 @@ export const translations = {
           text: "Opportunities to collaborate on real-impact open projects, building teamwork and applying technical skills in practice.",
         },
       ],
+      seeEvents: "Check out our events and get involved!",
+    },
+
+    sectionAPS: {
+      title: "Antennas and Propagation Society",
+      description:
+        "The AP-S is an IEEE society dedicated to the study of antennas, electromagnetic wave propagation, and their interaction with different media. In the IPLeiria chapter, we focus on exploring wireless communication technologies, radar systems, and the future of mobile networks (5G/6G).",
+
+      about: {
+        title: "About the IEEE APS SBC IPLeiria",
+        points: [
+          "Created on 09/12/2025, the IEEE AP-S Student Branch Chapter at IPLeiria is a space for innovation for students interested in radio frequency and communications.",
+          "Our goal is to bridge the gap between electromagnetic theory and practical real-world applications, ranging from small IoT sensors to satellite communications.",
+        ],
+      },
+
+      activities: [
+        {
+          title: "Antenna Design Workshops",
+          text: "Learn how to design, simulate, and build your own antennas using industry tools and rapid prototyping techniques.",
+        },
+        {
+          title: "Invited Talks with Experts",
+          text: "Sessions with researchers from IT (Instituto de Telecomunicações) and professionals from companies such as Altice Labs about the future of communications.",
+        },
+        {
+          title: "Technical Field Visits",
+          text: "We invite experts to share knowledge in areas such as distributed systems, cybersecurity, and machine learning.",
+        },
+        {
+          title: "Applied Research Projects",
+          text: "Get involved in real projects related to radiating systems, signal measurement, and cutting-edge technologies in partnership with the local research center.",
+        },
+      ],
+
       seeEvents: "Check out our events and get involved!",
     },
 
